@@ -1,0 +1,115 @@
+'use client';
+
+import { useState } from 'react';
+import Image from 'next/image';
+import { Menu, X } from 'lucide-react';
+
+export default function MobileMenu() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
+
+    return (
+        <>
+            {/* Mobile Menu Button - Shows on screens smaller than lg */}
+            <button
+                onClick={toggleMenu}
+                className="lg:hidden p-2 text-gray-700 hover:text-[#C9A961] transition-colors"
+                aria-label="Toggle menu"
+            >
+                {isOpen ? (
+                    <X className="w-8 h-8" />
+                ) : (
+                    <Menu className="w-8 h-8" />
+                )}
+            </button>
+
+            {/* Mobile Menu Overlay */}
+            {isOpen && (
+                <div
+                    className="fixed inset-0 bg-black/50 z-40 lg:hidden"
+                    onClick={closeMenu}
+                />
+            )}
+
+            {/* Mobile Menu Drawer */}
+            <div
+                className={`fixed top-0 right-0 h-full w-72 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out lg:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'
+                    }`}
+            >
+                <div className="p-6">
+                    {/* Close Button */}
+                    <button
+                        onClick={closeMenu}
+                        className="absolute top-6 right-6 text-gray-700 hover:text-[#C9A961]"
+                    >
+                        <X className="w-6 h-6" />
+                    </button>
+
+                    {/* Logo */}
+                    <div className="mb-8 mt-2">
+                        <Image
+                            src="/company.svg"
+                            alt="Aalishaan Global"
+                            width={150}
+                            height={50}
+                            className="h-12 w-auto"
+                        />
+                    </div>
+
+                    {/* Menu Items */}
+                    <nav className="flex flex-col space-y-4">
+                        <a
+                            href="/services"
+                            onClick={closeMenu}
+                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
+                        >
+                            Services
+                        </a>
+                        <a
+                            href="/industries"
+                            onClick={closeMenu}
+                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
+                        >
+                            Industries
+                        </a>
+                        <a
+                            href="/german-services"
+                            onClick={closeMenu}
+                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
+                        >
+                            German Services
+                        </a>
+                        <a
+                            href="/why-choose-us"
+                            onClick={closeMenu}
+                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
+                        >
+                            Why Us
+                        </a>
+                        <a
+                            href="/about"
+                            onClick={closeMenu}
+                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
+                        >
+                            About
+                        </a>
+                        <a
+                            href="/contact"
+                            onClick={closeMenu}
+                            className="bg-[#C9A961] text-white px-6 py-3 rounded-full hover:bg-[#a88a4d] font-semibold text-lg transition-all text-center mt-4"
+                        >
+                            Contact Us
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </>
+    );
+}
