@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MobileMenu from "@/components/MobileMenu";
 import { Plane, ShoppingCart, ShoppingBag, DollarSign, Monitor, Smartphone, CheckCircle2, Check, AlertTriangle } from "lucide-react";
 
 export default function Industries() {
@@ -145,6 +146,9 @@ export default function Industries() {
                                 Contact Us
                             </a>
                         </nav>
+
+                        {/* Mobile Menu */}
+                        <MobileMenu />
                     </div>
                 </div>
             </header>

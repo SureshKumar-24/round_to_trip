@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MobileMenu from "@/components/MobileMenu";
 import { XCircle, CheckCircle2, Zap, Clock, Paintbrush, DollarSign, Users, Shield, Check, Phone, Handshake } from "lucide-react";
 
 export default function WhyChooseUs() {
@@ -40,6 +41,9 @@ export default function WhyChooseUs() {
                                 Contact Us
                             </a>
                         </nav>
+
+                        {/* Mobile Menu */}
+                        <MobileMenu />
                     </div>
                 </div>
             </header>

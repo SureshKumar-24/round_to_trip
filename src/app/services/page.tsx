@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MobileMenu from "@/components/MobileMenu";
 import { Phone, Plane, Monitor, FileText, TrendingUp, Settings, Languages, Wrench, ClipboardCheck, CheckCircle2 } from "lucide-react";
 
 export default function Services() {
@@ -151,6 +152,9 @@ export default function Services() {
                                 Contact Us
                             </a>
                         </nav>
+
+                        {/* Mobile Menu */}
+                        <MobileMenu />
                     </div>
                 </div>
             </header>

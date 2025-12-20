@@ -20,36 +20,37 @@ export default function MobileMenu() {
             {/* Mobile Menu Button - Shows on screens smaller than lg */}
             <button
                 onClick={toggleMenu}
-                className="lg:hidden p-2 text-gray-700 hover:text-[#C9A961] transition-colors"
+                className="lg:hidden p-3 bg-[#C9A961] text-white rounded-lg hover:bg-[#a88a4d] transition-all shadow-lg"
                 aria-label="Toggle menu"
             >
                 {isOpen ? (
-                    <X className="w-8 h-8" />
+                    <X className="w-7 h-7 stroke-[2.5]" />
                 ) : (
-                    <Menu className="w-8 h-8" />
+                    <Menu className="w-7 h-7 stroke-[2.5]" />
                 )}
             </button>
 
             {/* Mobile Menu Overlay */}
             {isOpen && (
                 <div
-                    className="fixed inset-0 bg-black/50 z-40 lg:hidden"
+                    className="fixed inset-0 bg-black/50 z-[55] lg:hidden"
                     onClick={closeMenu}
                 />
             )}
 
             {/* Mobile Menu Drawer */}
             <div
-                className={`fixed top-0 right-0 h-full w-72 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out lg:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'
+                className={`fixed top-0 right-0 h-full w-72 bg-white shadow-2xl z-[60] transform transition-transform duration-300 ease-in-out lg:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'
                     }`}
+                style={{ backgroundColor: '#ffffff' }}
             >
-                <div className="p-6">
+                <div className="p-6 bg-white" style={{ backgroundColor: '#ffffff' }}>
                     {/* Close Button */}
                     <button
                         onClick={closeMenu}
-                        className="absolute top-6 right-6 text-gray-700 hover:text-[#C9A961]"
+                        className="absolute top-6 right-6 p-2 bg-gray-900 text-white rounded-lg hover:bg-[#C9A961] transition-all shadow-lg"
                     >
-                        <X className="w-6 h-6" />
+                        <X className="w-6 h-6 stroke-[2.5]" />
                     </button>
 
                     {/* Logo */}

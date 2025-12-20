@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MobileMenu from "@/components/MobileMenu";
 
 export default function Contact() {
     return (
@@ -39,6 +40,9 @@ export default function Contact() {
                                 Contact Us
                             </a>
                         </nav>
+
+                        {/* Mobile Menu */}
+                        <MobileMenu />
                     </div>
                 </div>
             </header>

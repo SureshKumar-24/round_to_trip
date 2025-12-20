@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MobileMenu from "@/components/MobileMenu";
 import { CheckCircle2, Plane, ShoppingCart, DollarSign, Monitor, Building2, ShoppingBag, Smile, Clock, Award } from "lucide-react";
 
 export default function GermanServices() {
@@ -40,6 +41,9 @@ export default function GermanServices() {
                                 Contact Us
                             </a>
                         </nav>
+
+                        {/* Mobile Menu */}
+                        <MobileMenu />
                     </div>
                 </div>
             </header>
