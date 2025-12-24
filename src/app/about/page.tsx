@@ -187,14 +187,15 @@ export default function About() {
                         ].map((member, idx) => (
                             <div key={idx} className="group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-gray-100 hover:border-[#C9A961]">
                                 <div className="relative mb-6">
-                                    <div className="w-48 h-48 mx-auto rounded-2xl overflow-hidden bg-gradient-to-br from-[#C9A961] to-[#a88a4d] p-1">
-                                        <div className="w-full h-full rounded-2xl overflow-hidden bg-white">
+                                    {/* Circular image with gold gradient border */}
+                                    <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gradient-to-br from-[#C9A961] to-[#a88a4d] p-1 shadow-lg">
+                                        <div className="w-full h-full rounded-full overflow-hidden bg-white">
                                             <Image
                                                 src={member.image}
                                                 alt={member.name}
-                                                width={192}
-                                                height={192}
-                                                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                                width={160}
+                                                height={160}
+                                                className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-300"
                                             />
                                         </div>
                                     </div>
