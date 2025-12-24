@@ -1,7 +1,7 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 
-export default function PrivacyPolicy() {
+export default function Terms() {
     return (
         <div className="min-h-screen bg-white">
             {/* Header/Navigation */}
@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
             <section className="pt-32 sm:pt-36 md:pt-40 pb-12 bg-gradient-to-br from-gray-900 to-gray-800">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
-                        Privacy Policy
+                        Terms of Service
                     </h1>
                     <p className="text-lg text-gray-300">
                         Last Updated: December 2024
@@ -54,148 +54,95 @@ export default function PrivacyPolicy() {
                         {/* Introduction */}
                         <div className="mb-12">
                             <p className="text-lg text-gray-700 leading-relaxed">
-                                We respect your privacy and are committed to protecting personal data. This Privacy Policy explains how Aalishaan Global BPO Services ("we," "our," or "us") collects, uses, and protects your information.
+                                These Terms of Service govern your use of the Aalishaan Global BPO Services website and our services. By using our website or engaging our services, you agree to these terms.
                             </p>
                         </div>
 
-                        {/* Information We Collect */}
+                        {/* Services */}
                         <div className="mb-12">
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">1.</span> Information We Collect
-                            </h2>
-                            <p className="text-gray-700 leading-relaxed mb-4">
-                                We may collect basic contact information such as name, email address, and company details when you contact us. This includes:
-                            </p>
-                            <ul className="space-y-2 text-gray-700 ml-6">
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span>Name and contact information (email address)</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span>Company name</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span>Business requirements and preferences you share with us</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span>Any other information you choose to provide</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        {/* Purpose of Data Processing */}
-                        <div className="mb-12">
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">2.</span> Purpose of Data Processing
-                            </h2>
-                            <p className="text-gray-700 leading-relaxed mb-4">
-                                Personal data is used only for:
-                            </p>
-                            <ul className="space-y-3 text-gray-700 ml-6">
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span><strong>Responding to inquiries:</strong> To answer your questions and provide information about our services</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span><strong>Service communication:</strong> To communicate with you about our services and your requirements</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span><strong>Business relationship management:</strong> To manage our relationship with you and provide requested services</span>
-                                </li>
-                            </ul>
-                            <p className="text-gray-900 font-semibold mt-6 p-4 bg-[#C9A961]/10 rounded-xl border border-[#C9A961]/20">
-                                We do not sell or misuse personal data.
-                            </p>
-                        </div>
-
-                        {/* Data Protection & GDPR */}
-                        <div className="mb-12">
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">3.</span> Data Protection & GDPR
-                            </h2>
-                            <p className="text-gray-700 leading-relaxed mb-4">
-                                We follow <strong>GDPR-aligned</strong> and global data protection practices, including:
-                            </p>
-                            <ul className="space-y-2 text-gray-700 ml-6">
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span>Purpose-limited usage of data</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span>Restricted access to personal information</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span>Secure storage practices</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span>Data minimization principles</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        {/* Your Rights */}
-                        <div className="mb-12">
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">4.</span> Your Rights
-                            </h2>
-                            <p className="text-gray-700 leading-relaxed mb-4">
-                                Users may request:
-                            </p>
-                            <ul className="space-y-2 text-gray-700 ml-6">
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span><strong>Access:</strong> Request access to your personal data</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span><strong>Correction:</strong> Request correction of inaccurate information</span>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="text-[#C9A961] mt-1">•</span>
-                                    <span><strong>Deletion:</strong> Request deletion of your personal data</span>
-                                </li>
-                            </ul>
-                            <p className="text-gray-700 leading-relaxed mt-6">
-                                To exercise these rights, please contact us at{' '}
-                                <a href="mailto:info@aalishaan-global.com" className="text-[#C9A961] hover:underline font-semibold">info@aalishaan-global.com</a>
-                            </p>
-                        </div>
-
-                        {/* Data Security */}
-                        <div className="mb-12">
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">5.</span> Data Security
-                            </h2>
-                            <p className="text-gray-700 leading-relaxed mb-4">
-                                We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
-                            </p>
-                        </div>
-
-                        {/* Data Retention */}
-                        <div className="mb-12">
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">6.</span> Data Retention
+                                <span className="text-[#C9A961]">1.</span> Our Services
                             </h2>
                             <p className="text-gray-700 leading-relaxed">
-                                We retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy. When we no longer need your information, we will securely delete or anonymize it.
+                                Aalishaan Global BPO Services provides customer support outsourcing services including email support, live chat support, travel and booking support, and ticket management. All services are provided under mutually agreed scope, NDA, and contractual terms.
                             </p>
                         </div>
 
-                        {/* Changes to Privacy Policy */}
+                        {/* Engagement */}
                         <div className="mb-12">
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">7.</span> Changes to This Policy
+                                <span className="text-[#C9A961]">2.</span> Service Engagement
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed mb-4">
+                                Our service engagements typically follow this process:
+                            </p>
+                            <ul className="space-y-2 text-gray-700 ml-6">
+                                <li className="flex items-start gap-2">
+                                    <span className="text-[#C9A961] mt-1">•</span>
+                                    <span>Initial requirements discussion</span>
+                                </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="text-[#C9A961] mt-1">•</span>
+                                    <span>NDA and contractual agreement</span>
+                                </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="text-[#C9A961] mt-1">•</span>
+                                    <span>Pilot engagement with defined scope</span>
+                                </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="text-[#C9A961] mt-1">•</span>
+                                    <span>Review and scaling based on performance</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Confidentiality */}
+                        <div className="mb-12">
+                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                                <span className="text-[#C9A961]">3.</span> Confidentiality
                             </h2>
                             <p className="text-gray-700 leading-relaxed">
-                                We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+                                All client information, business processes, and data shared with us are treated as confidential. We maintain strict confidentiality protocols and sign NDAs with all clients prior to service commencement.
+                            </p>
+                        </div>
+
+                        {/* Intellectual Property */}
+                        <div className="mb-12">
+                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                                <span className="text-[#C9A961]">4.</span> Intellectual Property
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed">
+                                All content on this website, including text, graphics, logos, and images, is the property of Aalishaan Global BPO Services. Client data and intellectual property remain the property of the respective clients.
+                            </p>
+                        </div>
+
+                        {/* Limitation of Liability */}
+                        <div className="mb-12">
+                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                                <span className="text-[#C9A961]">5.</span> Limitation of Liability
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed">
+                                While we strive to provide the highest quality services, specific liability terms are defined in individual service agreements. We encourage all clients to review these terms carefully before engagement.
+                            </p>
+                        </div>
+
+                        {/* Governing Law */}
+                        <div className="mb-12">
+                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                                <span className="text-[#C9A961]">6.</span> Governing Law
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed">
+                                These terms and any service agreements are governed by applicable laws. Specific jurisdictional terms are defined in individual contracts.
+                            </p>
+                        </div>
+
+                        {/* Changes */}
+                        <div className="mb-12">
+                            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                                <span className="text-[#C9A961]">7.</span> Changes to Terms
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed">
+                                We may update these terms from time to time. Continued use of our website constitutes acceptance of updated terms.
                             </p>
                         </div>
 
@@ -205,7 +152,7 @@ export default function PrivacyPolicy() {
                                 <span className="text-[#C9A961]">8.</span> Contact
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-4">
-                                For privacy-related requests, contact:
+                                For questions about these terms, please contact:
                             </p>
                             <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
                                 <p className="text-gray-700 mb-2"><strong>Aalishaan Global BPO Services</strong></p>
@@ -223,8 +170,8 @@ export default function PrivacyPolicy() {
                     <h3 className="text-2xl font-bold text-gray-900 mb-6">Related Policies</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                         {[
+                            { title: "Privacy Policy", href: "/privacy-policy" },
                             { title: "GDPR Compliance", href: "/gdpr" },
-                            { title: "Terms of Service", href: "/terms" },
                             { title: "Data Security", href: "/data-security" }
                         ].map((link, idx) => (
                             <a key={idx} href={link.href} className="bg-white rounded-xl p-4 border-2 border-gray-200 hover:border-[#C9A961] transition-all text-center font-semibold text-gray-900 hover:text-[#C9A961]">

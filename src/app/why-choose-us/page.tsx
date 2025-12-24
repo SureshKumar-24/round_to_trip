@@ -1,6 +1,6 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
-import { XCircle, CheckCircle2, Zap, Clock, Paintbrush, DollarSign, Users, Shield, Check, Phone, Handshake } from "lucide-react";
+import { CheckCircle2, Users, Shield, Zap, MessageSquare, Plane, Calendar, Phone, ArrowRight } from "lucide-react";
 
 export default function WhyChooseUs() {
     return (
@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
-                                    className="h-16 sm:h-18 md:h-20 w-auto"
+                                    className="h-14 sm:h-16 md:h-18 w-auto"
                                     priority
                                 />
                             </a>
@@ -25,12 +25,6 @@ export default function WhyChooseUs() {
                             <a href="/services" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
                                 Services
                             </a>
-                            <a href="/industries" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
-                                Industries
-                            </a>
-                            <a href="/german-services" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
-                                German Services
-                            </a>
                             <a href="/why-choose-us" className="text-[#C9A961] hover:text-[#a88a4d] font-semibold text-sm xl:text-base transition-colors">
                                 Why Us
                             </a>
@@ -38,7 +32,7 @@ export default function WhyChooseUs() {
                                 About
                             </a>
                             <a href="/contact" className="bg-[#C9A961] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#a88a4d] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
-                                Contact Us
+                                Request a Pilot
                             </a>
                         </nav>
 
@@ -57,197 +51,69 @@ export default function WhyChooseUs() {
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                        Why Choose <span className="bg-gradient-to-r from-[#C9A961] via-[#e8d7b0] to-[#C9A961] bg-clip-text text-transparent">Aalishaan Global?</span>
+                        Why Work <span className="bg-gradient-to-r from-[#C9A961] via-[#e8d7b0] to-[#C9A961] bg-clip-text text-transparent">With Us?</span>
                     </h1>
                     <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed">
-                        We compete with the big players, but we move faster, care more, and deliver better results.
+                        Honest, professional, and focused on long-term partnerships
                     </p>
                 </div>
             </section>
 
-            {/* Comparison with Big Players */}
+            {/* Key Reasons */}
             <section className="py-16 sm:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-12">
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                            How We're <span className="text-[#C9A961]">Different</span>
-                        </h2>
-                        <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-                            We understand you have options. Here's why clients choose us over large BPO corporations.
-                        </p>
-                    </div>
-
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                        {/* Large BPO Providers */}
-                        <div className="bg-gray-100 rounded-3xl p-8 border-2 border-gray-200">
-                            <div className="text-center mb-6">
-                                <div className="inline-block bg-gray-300 rounded-full px-6 py-2 mb-4">
-                                    <span className="text-gray-700 font-bold">Large BPO Providers</span>
-                                </div>
-                                <p className="text-gray-600 italic">Concentrix, Teleperformance, Webhelp, etc.</p>
-                            </div>
-                            <ul className="space-y-4">
-                                {[
-                                    "Long decision-making chains",
-                                    "Rigid processes and contracts",
-                                    "High overhead costs",
-                                    "Generic, one-size-fits-all approach",
-                                    "Limited flexibility in scaling",
-                                    "Slow to adapt to changes",
-                                    "Multiple layers of management"
-                                ].map((item, idx) => (
-                                    <li key={idx} className="flex items-start gap-3">
-                                        <XCircle className="w-6 h-6 text-red-500 mt-0.5 flex-shrink-0" />
-                                        <span className="text-gray-700">{item}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-
-                        {/* Aalishaan Global */}
-                        <div className="bg-gradient-to-br from-[#C9A961]/10 to-white rounded-3xl p-8 border-2 border-[#C9A961]">
-                            <div className="text-center mb-6">
-                                <div className="inline-block bg-[#C9A961] rounded-full px-6 py-2 mb-4">
-                                    <span className="text-white font-bold">Aalishaan Global</span>
-                                </div>
-                                <p className="text-gray-600 italic">Your Agile BPO Partner</p>
-                            </div>
-                            <ul className="space-y-4">
-                                {[
-                                    "Fast decision-making (direct access)",
-                                    "Flexible, customized solutions",
-                                    "Lower overhead, better pricing",
-                                    "Tailored to your specific needs",
-                                    "Quick scaling up or down",
-                                    "Rapid adaptation to changes",
-                                    "Dedicated management team"
-                                ].map((item, idx) => (
-                                    <li key={idx} className="flex items-start gap-3">
-                                        <CheckCircle2 className="w-6 h-6 text-[#C9A961] mt-0.5 flex-shrink-0" />
-                                        <span className="text-gray-700 font-medium">{item}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Key Differentiators */}
-            <section className="py-16 sm:py-20 bg-gray-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                            Our <span className="text-[#C9A961]">Key Advantages</span>
-                        </h2>
-                    </div>
-
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {[
                             {
-                                Icon: Zap,
-                                title: "Pilot-First Approach",
-                                description: "Start with 5-10 agents. See results before committing. No long-term contracts required upfront.",
-                                benefit: "Zero risk, proven results"
-                            },
-                            {
-                                Icon: Clock,
-                                title: "Faster Decision-Making",
-                                description: "Direct access to leadership. No bureaucracy. Decisions in hours, not weeks.",
-                                benefit: "Speed to market"
-                            },
-                            {
-                                Icon: Paintbrush,
-                                title: "Flexibility",
-                                description: "Scale up or down based on demand. Customize processes. Adapt quickly to market changes.",
-                                benefit: "Built for your needs"
-                            },
-                            {
-                                Icon: DollarSign,
-                                title: "Lower Overhead",
-                                description: "Competitive pricing without sacrificing quality. Better value than large corporations.",
-                                benefit: "Cost-effective excellence"
-                            },
-                            {
                                 Icon: Users,
-                                title: "Dedicated Management",
-                                description: "Your own account manager. Direct communication. Personal attention to your business.",
-                                benefit: "You're not just a number"
+                                title: "Trained CX Professionals",
+                                description: "Professionally managed customer experience team with structured training and quality processes.",
+                                emoji: null
+                            },
+                            {
+                                Icon: MessageSquare,
+                                title: "Strong English Communication",
+                                description: "Excellent communication skills tailored for UK & US customers, maintaining brand tone and quality.",
+                                emoji: null
+                            },
+                            {
+                                Icon: null,
+                                title: "Certified German Capability",
+                                description: "Goethe B2-certified German language capability for European customer support.",
+                                emoji: "🇩🇪"
+                            },
+                            {
+                                Icon: Plane,
+                                title: "Travel & Tech Experience",
+                                description: "Familiar with travel and technology customer workflows, booking systems, and support processes.",
+                                emoji: null
                             },
                             {
                                 Icon: Shield,
-                                title: "Custom SLAs",
-                                description: "Define your own success metrics. We build SLAs around your business goals, not generic templates.",
-                                benefit: "Your metrics, your success"
+                                title: "Ethical & Transparent",
+                                description: "Honest, transparent customer handling practices. No exaggeration, no false promises.",
+                                emoji: null
+                            },
+                            {
+                                Icon: Zap,
+                                title: "Pilot-Based Engagement",
+                                description: "Start with 1-2 agents. Evaluate quality and alignment before scaling. Low-risk approach.",
+                                emoji: null
                             }
                         ].map((item, idx) => (
-                            <div key={idx} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+                            <div key={idx} className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 border-2 border-gray-100 hover:border-[#C9A961] transition-all hover:shadow-xl">
                                 <div className="w-16 h-16 bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-2xl flex items-center justify-center mb-6">
-                                    <item.Icon className="w-8 h-8 text-white" />
+                                    {item.emoji ? <span className="text-3xl">{item.emoji}</span> : item.Icon && <item.Icon className="w-8 h-8 text-white" />}
                                 </div>
                                 <h3 className="text-2xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                                <p className="text-gray-600 mb-4 leading-relaxed">{item.description}</p>
-                                <div className="inline-block bg-[#C9A961]/10 rounded-full px-4 py-2">
-                                    <span className="text-[#C9A961] font-semibold text-sm">{item.benefit}</span>
-                                </div>
+                                <p className="text-gray-600 leading-relaxed">{item.description}</p>
                             </div>
                         ))}
                     </div>
                 </div>
             </section>
 
-            {/* Quality Assurance */}
-            <section className="py-16 sm:py-20 bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                        <div>
-                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                                Quality <span className="text-[#C9A961]">Without Compromise</span>
-                            </h2>
-                            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                                Being smaller doesn't mean lower quality. In fact, it means we can focus more on each client and deliver superior results.
-                            </p>
-                            <div className="space-y-6">
-                                {[
-                                    { title: "Rigorous Hiring", desc: "Only top 5% of applicants make it through our selection process" },
-                                    { title: "Continuous Training", desc: "Ongoing skill development and quality coaching for all team members" },
-                                    { title: "Quality Monitoring", desc: "Real-time monitoring, regular audits, and performance feedback" },
-                                    { title: "Client Feedback Loop", desc: "Weekly reviews and immediate action on improvement areas" }
-                                ].map((item, idx) => (
-                                    <div key={idx} className="flex items-start gap-4">
-                                        <div className="w-12 h-12 bg-[#C9A961]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                                            <Check className="w-6 h-6 text-[#C9A961]" />
-                                        </div>
-                                        <div>
-                                            <h3 className="text-xl font-bold text-gray-900 mb-1">{item.title}</h3>
-                                            <p className="text-gray-600">{item.desc}</p>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                        <div className="bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-3xl p-8 sm:p-10 text-white">
-                            <h3 className="text-3xl font-bold mb-8">Our Quality Metrics</h3>
-                            <div className="space-y-6">
-                                {[
-                                    { metric: "99.2%", label: "Quality Score", sublabel: "Consistently above industry standard" },
-                                    { metric: "98%", label: "CSAT", sublabel: "Customer satisfaction rating" },
-                                    { metric: "95%", label: "FCR", sublabel: "First call resolution rate" },
-                                    { metric: "<2%", label: "Attrition", sublabel: "Industry-leading retention" }
-                                ].map((stat, idx) => (
-                                    <div key={idx} className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-                                        <div className="text-4xl font-bold mb-2">{stat.metric}</div>
-                                        <div className="text-xl font-semibold mb-1">{stat.label}</div>
-                                        <div className="text-white/80 text-sm">{stat.sublabel}</div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Leadership Involvement */}
+            {/* Direct Management */}
             <section className="py-16 sm:py-20 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="bg-white rounded-3xl shadow-xl p-8 sm:p-12">
@@ -255,35 +121,29 @@ export default function WhyChooseUs() {
                             <div className="inline-block bg-[#C9A961]/10 rounded-full px-6 py-2 mb-6">
                                 <span className="text-[#C9A961] font-semibold flex items-center gap-2 justify-center">
                                     <Users className="w-5 h-5" />
-                                    Leadership Involvement
+                                    Direct Management Oversight
                                 </span>
                             </div>
                             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                                You Matter to Us
+                                Small, Dedicated Team
                             </h2>
                             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                                Unlike large corporations where you're account #47382, at Aalishaan Global, you work directly with our leadership team. We're invested in your success because your success is our success.
+                                Unlike large BPO corporations, we offer direct access to management and a personal touch. Your account matters to us, and you'll work directly with people who care about your success.
                             </p>
                             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                                 <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 border border-gray-200">
-                                    <div className="w-12 h-12 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mx-auto mb-3">
-                                        <Phone className="w-6 h-6 text-[#C9A961]" />
-                                    </div>
+                                    <CheckCircle2 className="w-10 h-10 text-[#C9A961] mx-auto mb-3" />
                                     <div className="font-bold text-gray-900 mb-2">Direct Access</div>
-                                    <div className="text-gray-600 text-sm">Reach leadership anytime</div>
+                                    <div className="text-gray-600 text-sm">Reach decision-makers directly</div>
                                 </div>
                                 <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 border border-gray-200">
-                                    <div className="w-12 h-12 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mx-auto mb-3">
-                                        <Handshake className="w-6 h-6 text-[#C9A961]" />
-                                    </div>
+                                    <CheckCircle2 className="w-10 h-10 text-[#C9A961] mx-auto mb-3" />
                                     <div className="font-bold text-gray-900 mb-2">Personal Touch</div>
                                     <div className="text-gray-600 text-sm">We know your business</div>
                                 </div>
                                 <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 border border-gray-200">
-                                    <div className="w-12 h-12 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mx-auto mb-3">
-                                        <Zap className="w-6 h-6 text-[#C9A961]" />
-                                    </div>
-                                    <div className="font-bold text-gray-900 mb-2">Quick Action</div>
+                                    <CheckCircle2 className="w-10 h-10 text-[#C9A961] mx-auto mb-3" />
+                                    <div className="font-bold text-gray-900 mb-2">Quick Response</div>
                                     <div className="text-gray-600 text-sm">Issues resolved fast</div>
                                 </div>
                             </div>
@@ -292,21 +152,88 @@ export default function WhyChooseUs() {
                 </div>
             </section>
 
+            {/* How We Work */}
+            <section className="py-16 sm:py-20 bg-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                            How We <span className="text-[#C9A961]">Work</span>
+                        </h2>
+                        <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+                            A transparent process from start to scale
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+                        {[
+                            { step: "1", title: "Requirement Discussion", desc: "Understanding your product and support needs" },
+                            { step: "2", title: "NDA & Access", desc: "Secure setup and documentation" },
+                            { step: "3", title: "Agent Onboarding", desc: "7-10 days product training" },
+                            { step: "4", title: "Pilot Launch", desc: "Start with 1-2 agents" },
+                            { step: "5", title: "Review & Scale", desc: "Performance review and growth" }
+                        ].map((item, idx) => (
+                            <div key={idx} className="relative text-center">
+                                <div className="w-16 h-16 bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold">
+                                    {item.step}
+                                </div>
+                                <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
+                                <p className="text-gray-600 text-sm">{item.desc}</p>
+                                {idx < 4 && (
+                                    <div className="hidden md:block absolute top-8 -right-3">
+                                        <ArrowRight className="w-6 h-6 text-[#C9A961]" />
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* We Focus On */}
+            <section className="py-16 sm:py-20 bg-gray-50">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+                            We Focus On <span className="text-[#C9A961]">Long-Term Partnerships</span>
+                        </h2>
+                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                            Not quick volume. Every relationship is built on trust and measurable results.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+                        {[
+                            "Reliable people",
+                            "Clear processes",
+                            "Ethical delivery",
+                            "Continuous improvement"
+                        ].map((item, idx) => (
+                            <div key={idx} className="bg-white rounded-xl p-6 text-center shadow-md border-2 border-gray-100 hover:border-[#C9A961] transition-all">
+                                <CheckCircle2 className="w-10 h-10 text-[#C9A961] mx-auto mb-4" />
+                                <p className="text-gray-900 font-semibold">{item}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* CTA Section */}
             <section className="py-16 sm:py-20 bg-gradient-to-r from-[#C9A961] via-[#a88a4d] to-[#C9A961]">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-                        Experience the Difference
+                        Start Small. Scale Confidently.
                     </h2>
                     <p className="text-lg sm:text-xl text-white/95 mb-10 max-w-3xl mx-auto">
-                        Start with a pilot project and see why clients choose us over the big players.
+                        Begin with a short pilot so you can evaluate quality, communication style, and workflow alignment before scaling.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="/contact" className="bg-white text-[#C9A961] px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105">
-                            Start Your Pilot
+                        <a href="/contact" className="bg-white text-[#C9A961] px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105 flex items-center justify-center gap-2">
+                            <Calendar className="w-5 h-5" />
+                            Request a Pilot
                         </a>
-                        <a href="/german-services" className="bg-gray-900 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-800 transition-all shadow-2xl">
-                            German Services
+                        <a href="/contact" className="bg-gray-900 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-800 transition-all shadow-2xl flex items-center justify-center gap-2">
+                            <Phone className="w-5 h-5" />
+                            Book a 15-Min Call
                         </a>
                     </div>
                 </div>
@@ -324,14 +251,15 @@ export default function WhyChooseUs() {
                                 height={60}
                                 className="h-16 w-auto mb-4 brightness-200"
                             />
-                            <p className="text-gray-400">Premium BPO services for global businesses.</p>
+                            <p className="text-gray-400 mb-2">Customer Support Outsourcing for UK, US & European Businesses</p>
+                            <p className="text-gray-500 text-sm">Based in India | Global Delivery</p>
                         </div>
                         <div>
                             <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Quick Links</h3>
                             <ul className="space-y-2">
                                 <li><a href="/" className="text-gray-400 hover:text-[#C9A961] transition-colors">Home</a></li>
                                 <li><a href="/services" className="text-gray-400 hover:text-[#C9A961] transition-colors">Services</a></li>
-                                <li><a href="/industries" className="text-gray-400 hover:text-[#C9A961] transition-colors">Industries</a></li>
+                                <li><a href="/about" className="text-gray-400 hover:text-[#C9A961] transition-colors">About</a></li>
                             </ul>
                         </div>
                         <div>
@@ -346,7 +274,7 @@ export default function WhyChooseUs() {
                             <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
                                 <li>info@aalishaan-global.com</li>
-                                <li>+1 (234) 567-8900</li>
+                                <li>Country: India</li>
                             </ul>
                         </div>
                     </div>

@@ -1,115 +1,63 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
-import { Phone, Plane, Monitor, FileText, TrendingUp, Settings, Languages, Wrench, ClipboardCheck, CheckCircle2 } from "lucide-react";
+import { Mail, MessageSquare, Plane, ClipboardList, CheckCircle2, Calendar, Phone } from "lucide-react";
 
 export default function Services() {
     const services = [
         {
-            id: "german-customer-support",
-            title: "German Customer Support",
-            subtitle: "Voice & Non-Voice",
-            Icon: Phone,
-            description: "Native-level German customer support across all channels",
-            whatWeDo: "We provide comprehensive German language customer support services including inbound/outbound calls, email support, live chat, and social media management.",
-            languages: ["German (Native C1/C2)", "German + English", "German + French"],
-            tools: ["Zendesk", "Salesforce", "Freshdesk", "Intercom", "HubSpot", "Custom CRM"],
-            useCases: [
-                "Travel & tourism customer inquiries",
-                "E-commerce order support",
-                "Technical troubleshooting",
-                "Booking modifications & cancellations",
-                "Complaint resolution",
-                "Product information & recommendations"
+            id: "email-support",
+            title: "Email Customer Support",
+            Icon: Mail,
+            description: "Professional handling of customer emails related to accounts, bookings, subscriptions, billing queries, and general inquiries.",
+            details: [
+                "Account-related inquiries and support",
+                "Booking confirmations and modifications",
+                "Subscription management assistance",
+                "Billing and payment queries",
+                "General customer inquiries",
+                "Professional tone and brand-aligned responses"
             ]
         },
         {
-            id: "travel-airline-support",
-            title: "Travel & Airline Support",
-            subtitle: "Specialized Travel BPO",
+            id: "live-chat-support",
+            title: "Live Chat Support",
+            Icon: MessageSquare,
+            description: "Real-time chat assistance for website and in-app users, focused on fast resolution and clear guidance.",
+            details: [
+                "Instant customer assistance",
+                "Website and in-app chat support",
+                "Quick resolution focus",
+                "Clear and helpful guidance",
+                "Multi-session handling",
+                "Seamless handoff when needed"
+            ]
+        },
+        {
+            id: "travel-support",
+            title: "Travel & Booking Support",
             Icon: Plane,
-            description: "Expert support for airlines, OTAs, and travel agencies",
-            whatWeDo: "Dedicated travel industry support covering reservations, booking management, customer service, and operational assistance for airlines and online travel agencies.",
-            languages: ["German", "English", "French", "Spanish", "Italian"],
-            tools: ["Amadeus", "Sabre", "Galileo", "Travelport", "Custom Booking Systems"],
-            useCases: [
-                "Flight reservations & modifications",
-                "Hotel & car rental bookings",
-                "Travel package inquiries",
-                "Loyalty program support",
-                "Refund & compensation processing",
-                "Emergency travel assistance"
+            description: "Customer support for reservations, modifications, cancellations, and general travel-related queries.",
+            details: [
+                "Reservation assistance",
+                "Booking modifications",
+                "Cancellation processing",
+                "Travel itinerary support",
+                "General travel inquiries",
+                "Post-booking customer care"
             ]
         },
         {
-            id: "ota-booking-support",
-            title: "OTA & Booking Support",
-            subtitle: "Online Travel Agency Solutions",
-            Icon: Monitor,
-            description: "Complete support for online travel platforms",
-            whatWeDo: "End-to-end customer support for OTAs including booking assistance, payment processing, customer inquiries, and post-booking support.",
-            languages: ["German", "English", "Multi-language support available"],
-            tools: ["Booking.com systems", "Expedia platforms", "Custom OTA software", "Payment gateways"],
-            useCases: [
-                "Booking confirmations & modifications",
-                "Payment & billing support",
-                "Property inquiries",
-                "Review management",
-                "Partner support",
-                "Customer dispute resolution"
-            ]
-        },
-        {
-            id: "back-office",
-            title: "Back Office Support",
-            subtitle: "Email, Chat & Data Processing",
-            Icon: FileText,
-            description: "Efficient back-office operations in German",
-            whatWeDo: "Comprehensive back-office support including email management, chat support, data entry, document processing, and administrative tasks.",
-            languages: ["German", "English"],
-            tools: ["Microsoft Office Suite", "Google Workspace", "CRM systems", "Data management tools"],
-            useCases: [
-                "Email ticket management",
-                "Live chat support",
-                "Data entry & validation",
-                "Document processing",
-                "Order processing",
-                "Database management"
-            ]
-        },
-        {
-            id: "sales-support",
-            title: "Sales Support",
-            subtitle: "Outbound & Lead Generation",
-            Icon: TrendingUp,
-            description: "German-speaking sales and lead generation services",
-            whatWeDo: "Professional outbound sales support, lead qualification, appointment setting, and sales follow-up in German language.",
-            languages: ["German (Native)", "German + English"],
-            tools: ["Salesforce", "HubSpot", "Pipedrive", "Outreach", "LinkedIn Sales Navigator"],
-            useCases: [
-                "Outbound sales calls",
-                "Lead qualification",
-                "Appointment setting",
-                "Product demonstrations",
-                "Follow-up campaigns",
-                "Market research"
-            ]
-        },
-        {
-            id: "technical-support",
-            title: "Technical Support",
-            subtitle: "IT & Product Support",
-            Icon: Settings,
-            description: "Expert technical assistance in German",
-            whatWeDo: "Specialized technical support for software, SaaS platforms, and digital products with German-speaking experts.",
-            languages: ["German (Technical)", "English"],
-            tools: ["Jira", "Zendesk", "ServiceNow", "Remote support tools", "Ticketing systems"],
-            useCases: [
-                "Software troubleshooting",
-                "Technical onboarding",
-                "Bug reporting & tracking",
-                "System configuration",
-                "User training",
-                "Escalation management"
+            id: "ticket-management",
+            title: "Ticket Management & Escalation",
+            Icon: ClipboardList,
+            description: "Structured ticket handling, internal notes, SLA-aligned responses, and escalation to client teams when required.",
+            details: [
+                "Structured ticket handling",
+                "Internal note documentation",
+                "SLA-aligned response times",
+                "Proper escalation procedures",
+                "Priority management",
+                "Client team coordination"
             ]
         }
     ];
@@ -127,7 +75,7 @@ export default function Services() {
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
-                                    className="h-16 sm:h-18 md:h-20 w-auto"
+                                    className="h-14 sm:h-16 md:h-18 w-auto"
                                     priority
                                 />
                             </a>
@@ -136,12 +84,6 @@ export default function Services() {
                             <a href="/services" className="text-[#C9A961] hover:text-[#a88a4d] font-semibold text-sm xl:text-base transition-colors">
                                 Services
                             </a>
-                            <a href="/industries" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
-                                Industries
-                            </a>
-                            <a href="/german-services" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
-                                German Services
-                            </a>
                             <a href="/why-choose-us" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
                                 Why Us
                             </a>
@@ -149,7 +91,7 @@ export default function Services() {
                                 About
                             </a>
                             <a href="/contact" className="bg-[#C9A961] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#a88a4d] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
-                                Contact Us
+                                Request a Pilot
                             </a>
                         </nav>
 
@@ -171,7 +113,7 @@ export default function Services() {
                         Our <span className="bg-gradient-to-r from-[#C9A961] via-[#e8d7b0] to-[#C9A961] bg-clip-text text-transparent">Services</span>
                     </h1>
                     <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed">
-                        Comprehensive BPO solutions tailored to your business needs. Every service designed for excellence.
+                        Focused customer support solutions for travel and tech platforms
                     </p>
                 </div>
             </section>
@@ -179,81 +121,107 @@ export default function Services() {
             {/* Services Detail Section */}
             <section className="py-16 sm:py-20 md:py-24 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="space-y-16">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         {services.map((service, idx) => (
-                            <div key={service.id} id={service.id} className={`${idx % 2 === 0 ? 'bg-white' : 'bg-gradient-to-br from-gray-50 to-white'} rounded-3xl shadow-xl p-8 sm:p-10 md:p-12 hover:shadow-2xl transition-all duration-300`}>
-                                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                                    {/* Service Header */}
-                                    <div className="lg:col-span-3">
-                                        <div className="flex items-start gap-6">
-                                            <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-2xl flex items-center justify-center flex-shrink-0">
-                                                <service.Icon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
-                                            </div>
-                                            <div>
-                                                <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">{service.title}</h2>
-                                                <p className="text-xl text-[#C9A961] font-semibold mb-3">{service.subtitle}</p>
-                                                <p className="text-lg text-gray-600">{service.description}</p>
-                                            </div>
+                            <div key={service.id} id={service.id} className="bg-white rounded-3xl shadow-xl p-8 sm:p-10 hover:shadow-2xl transition-all duration-300">
+                                <div className="flex items-start gap-6 mb-6">
+                                    <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-2xl flex items-center justify-center flex-shrink-0">
+                                        <service.Icon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
+                                    </div>
+                                    <div>
+                                        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">{service.title}</h2>
+                                    </div>
+                                </div>
+
+                                <p className="text-lg text-gray-700 mb-6 leading-relaxed">{service.description}</p>
+
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                    {service.details.map((detail, i) => (
+                                        <div key={i} className="flex items-start gap-2">
+                                            <CheckCircle2 className="w-5 h-5 text-[#C9A961] mt-0.5 flex-shrink-0" />
+                                            <span className="text-gray-600">{detail}</span>
                                         </div>
-                                    </div>
-
-                                    {/* What We Do */}
-                                    <div className="lg:col-span-3 bg-gradient-to-r from-[#C9A961]/10 to-transparent rounded-2xl p-6">
-                                        <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
-                                            <span className="text-[#C9A961]">●</span> What We Do
-                                        </h3>
-                                        <p className="text-gray-700 text-lg leading-relaxed">{service.whatWeDo}</p>
-                                    </div>
-
-                                    {/* Languages Supported */}
-                                    <div>
-                                        <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                                            <Languages className="w-6 h-6 text-[#C9A961]" />
-                                            Languages Supported
-                                        </h3>
-                                        <ul className="space-y-2">
-                                            {service.languages.map((lang, i) => (
-                                                <li key={i} className="flex items-center gap-2 text-gray-700">
-                                                    <span className="w-2 h-2 bg-[#C9A961] rounded-full"></span>
-                                                    {lang}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-
-                                    {/* Tools & Systems */}
-                                    <div>
-                                        <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                                            <Wrench className="w-6 h-6 text-[#C9A961]" />
-                                            Tools & Systems Used
-                                        </h3>
-                                        <div className="flex flex-wrap gap-2">
-                                            {service.tools.map((tool, i) => (
-                                                <span key={i} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
-                                                    {tool}
-                                                </span>
-                                            ))}
-                                        </div>
-                                    </div>
-
-                                    {/* Typical Use Cases */}
-                                    <div>
-                                        <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                                            <ClipboardCheck className="w-6 h-6 text-[#C9A961]" />
-                                            Typical Use Cases
-                                        </h3>
-                                        <ul className="space-y-2">
-                                            {service.useCases.map((useCase, i) => (
-                                                <li key={i} className="flex items-start gap-2 text-gray-700">
-                                                    <CheckCircle2 className="w-5 h-5 text-[#C9A961] mt-0.5 flex-shrink-0" />
-                                                    {useCase}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
+                                    ))}
                                 </div>
                             </div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Languages Section */}
+            <section className="py-16 sm:py-20 bg-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+                            Languages We <span className="text-[#C9A961]">Support</span>
+                        </h2>
+                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                            We provide customer support in multiple languages, allowing our clients to serve global users without building multiple in-house teams.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                        <div className="bg-gray-50 rounded-2xl p-8 text-center border-2 border-gray-100 hover:border-[#C9A961] transition-all">
+                            <div className="text-4xl mb-4">🇬🇧 🇺🇸</div>
+                            <h3 className="text-xl font-bold text-gray-900 mb-2">English</h3>
+                            <p className="text-gray-600">UK & US customers</p>
+                        </div>
+                        <div className="bg-gray-50 rounded-2xl p-8 text-center border-2 border-gray-100 hover:border-[#C9A961] transition-all">
+                            <div className="text-4xl mb-4">🇩🇪</div>
+                            <h3 className="text-xl font-bold text-gray-900 mb-2">German</h3>
+                            <p className="text-gray-600">Goethe-certified B2 level agents</p>
+                        </div>
+                        <div className="bg-gray-50 rounded-2xl p-8 text-center border-2 border-gray-100 hover:border-[#C9A961] transition-all">
+                            <div className="text-4xl mb-4">🌍</div>
+                            <h3 className="text-xl font-bold text-gray-900 mb-2">Additional</h3>
+                            <p className="text-gray-600">Available on request</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Tools & Workflows */}
+            <section className="py-16 sm:py-20 bg-gray-50">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+                            Tools & <span className="text-[#C9A961]">Workflows</span>
+                        </h2>
+                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                            Our team is familiar with modern CX environments and ticket-based workflows
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
+                        {[
+                            "Zendesk-style ticketing",
+                            "Intercom-style live chat",
+                            "Freshdesk-style tools",
+                            "Custom CRM systems"
+                        ].map((tool, idx) => (
+                            <div key={idx} className="bg-white rounded-xl p-6 text-center shadow-md">
+                                <CheckCircle2 className="w-8 h-8 text-[#C9A961] mx-auto mb-3" />
+                                <span className="text-gray-700 font-medium">{tool}</span>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="bg-white rounded-2xl p-8 max-w-4xl mx-auto shadow-lg">
+                        <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">We Follow</h3>
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            {[
+                                "Knowledge-base-driven responses",
+                                "SLA-aligned workflows",
+                                "Clear escalation processes",
+                                "Quality and tone reviews"
+                            ].map((item, idx) => (
+                                <div key={idx} className="flex items-center gap-2">
+                                    <CheckCircle2 className="w-5 h-5 text-[#C9A961] flex-shrink-0" />
+                                    <span className="text-gray-700 text-sm">{item}</span>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </section>
@@ -262,17 +230,19 @@ export default function Services() {
             <section className="py-16 sm:py-20 bg-gradient-to-r from-[#C9A961] via-[#a88a4d] to-[#C9A961]">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-                        Ready to Get Started?
+                        Discuss Your Support Needs
                     </h2>
                     <p className="text-lg sm:text-xl text-white/95 mb-10 max-w-3xl mx-auto">
-                        Let's discuss how our services can transform your business operations.
+                        Start with a pilot to evaluate quality and workflow alignment before scaling.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="/contact" className="bg-white text-[#C9A961] px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105">
-                            Contact Us Today
+                        <a href="/contact" className="bg-white text-[#C9A961] px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105 flex items-center justify-center gap-2">
+                            <Calendar className="w-5 h-5" />
+                            Request a Pilot
                         </a>
-                        <a href="/german-services" className="bg-gray-900 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-800 transition-all shadow-2xl">
-                            German Services
+                        <a href="/contact" className="bg-gray-900 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-800 transition-all shadow-2xl flex items-center justify-center gap-2">
+                            <Phone className="w-5 h-5" />
+                            Book a 15-Min Call
                         </a>
                     </div>
                 </div>
@@ -290,14 +260,15 @@ export default function Services() {
                                 height={60}
                                 className="h-16 w-auto mb-4 brightness-200"
                             />
-                            <p className="text-gray-400">Premium BPO services for global businesses.</p>
+                            <p className="text-gray-400 mb-2">Customer Support Outsourcing for UK, US & European Businesses</p>
+                            <p className="text-gray-500 text-sm">Based in India | Global Delivery</p>
                         </div>
                         <div>
                             <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Quick Links</h3>
                             <ul className="space-y-2">
                                 <li><a href="/" className="text-gray-400 hover:text-[#C9A961] transition-colors">Home</a></li>
                                 <li><a href="/about" className="text-gray-400 hover:text-[#C9A961] transition-colors">About</a></li>
-                                <li><a href="/industries" className="text-gray-400 hover:text-[#C9A961] transition-colors">Industries</a></li>
+                                <li><a href="/why-choose-us" className="text-gray-400 hover:text-[#C9A961] transition-colors">Why Choose Us</a></li>
                             </ul>
                         </div>
                         <div>
@@ -312,7 +283,7 @@ export default function Services() {
                             <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
                                 <li>info@aalishaan-global.com</li>
-                                <li>+1 (234) 567-8900</li>
+                                <li>Country: India</li>
                             </ul>
                         </div>
                     </div>

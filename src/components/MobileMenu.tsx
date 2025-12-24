@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Calendar, Phone } from 'lucide-react';
 
 export default function MobileMenu() {
     const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +54,7 @@ export default function MobileMenu() {
                     </button>
 
                     {/* Logo */}
-                    <div className="mb-8 mt-2">
+                    <div className="mb-6 mt-2">
                         <Image
                             src="/company.svg"
                             alt="Aalishaan Global"
@@ -62,30 +62,19 @@ export default function MobileMenu() {
                             height={50}
                             className="h-12 w-auto"
                         />
+                        <p className="text-[10px] text-gray-500 mt-1">
+                            Customer Support Outsourcing
+                        </p>
                     </div>
 
                     {/* Menu Items */}
-                    <nav className="flex flex-col space-y-4">
+                    <nav className="flex flex-col space-y-3">
                         <a
                             href="/services"
                             onClick={closeMenu}
                             className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
                         >
                             Services
-                        </a>
-                        <a
-                            href="/industries"
-                            onClick={closeMenu}
-                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
-                        >
-                            Industries
-                        </a>
-                        <a
-                            href="/german-services"
-                            onClick={closeMenu}
-                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
-                        >
-                            German Services
                         </a>
                         <a
                             href="/why-choose-us"
@@ -101,14 +90,35 @@ export default function MobileMenu() {
                         >
                             About
                         </a>
+
+                        {/* Divider */}
+                        <div className="border-t border-gray-200 my-2"></div>
+
+                        {/* CTA Buttons */}
                         <a
                             href="/contact"
                             onClick={closeMenu}
-                            className="bg-[#C9A961] text-white px-6 py-3 rounded-full hover:bg-[#a88a4d] font-semibold text-lg transition-all text-center mt-4"
+                            className="bg-[#C9A961] text-white px-6 py-3 rounded-full hover:bg-[#a88a4d] font-semibold text-lg transition-all text-center flex items-center justify-center gap-2"
                         >
-                            Contact Us
+                            <Calendar className="w-5 h-5" />
+                            Request a Pilot
+                        </a>
+                        <a
+                            href="/contact"
+                            onClick={closeMenu}
+                            className="bg-gray-900 text-white px-6 py-3 rounded-full hover:bg-gray-800 font-semibold text-lg transition-all text-center flex items-center justify-center gap-2"
+                        >
+                            <Phone className="w-5 h-5" />
+                            Book a Call
                         </a>
                     </nav>
+
+                    {/* Contact Info */}
+                    <div className="mt-8 pt-6 border-t border-gray-200">
+                        <p className="text-sm text-gray-500 mb-2">Contact us:</p>
+                        <p className="text-sm text-gray-700">info@aalishaan-global.com</p>
+                        <p className="text-xs text-gray-500 mt-2">Based in India | Global Delivery</p>
+                    </div>
                 </div>
             </div>
         </>
