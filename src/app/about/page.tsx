@@ -161,7 +161,7 @@ export default function About() {
                             },
                             {
                                 name: "Jyoti",
-                                image: "https://res.cloudinary.com/dsr89dej0/image/upload/v1766134195/Round%20To%20Trip/ymmykv4kbqioztj741fb.png",
+                                image: "https://res.cloudinary.com/dsr89dej0/image/upload/v1766678611/Round%20To%20Trip/y78lj3wmqqhmsqedc33x.jpg",
                                 role: "Team Manager"
                             },
                             {
