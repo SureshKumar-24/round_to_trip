@@ -12,7 +12,7 @@ export default function Contact() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/company.svg"
+                                    src="/round_logo.png"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -22,16 +22,16 @@ export default function Contact() {
                             </a>
                         </div>
                         <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
-                            <a href="/services" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/services" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 Services
                             </a>
-                            <a href="/why-choose-us" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/why-choose-us" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 Why Us
                             </a>
-                            <a href="/about" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/about" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 About
                             </a>
-                            <a href="/contact" className="bg-[#C9A961] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#a88a4d] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
+                            <a href="/contact" className="bg-[#1E73BE] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#155A96] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
                                 Request a Pilot
                             </a>
                         </nav>
@@ -45,13 +45,13 @@ export default function Contact() {
             {/* Hero Section */}
             <section className="pt-32 sm:pt-36 md:pt-40 pb-16 sm:pb-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black relative overflow-hidden">
                 <div className="absolute inset-0 opacity-20">
-                    <div className="absolute top-20 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#C9A961] rounded-full filter blur-3xl animate-pulse"></div>
-                    <div className="absolute bottom-20 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#DC2626] rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+                    <div className="absolute top-20 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#1E73BE] rounded-full filter blur-3xl animate-pulse"></div>
+                    <div className="absolute bottom-20 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#6F8FA6] rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
                 </div>
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                        Let's Discuss Your <span className="bg-gradient-to-r from-[#C9A961] via-[#e8d7b0] to-[#C9A961] bg-clip-text text-transparent">Support Needs</span>
+                        Let's Discuss Your <span className="bg-gradient-to-r from-[#1E73BE] via-[#5BA3E6] to-[#1E73BE] bg-clip-text text-transparent">Support Needs</span>
                     </h1>
                     <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed">
                         Looking to outsource part of your customer support? Start with a short pilot or book a quick call to explore how we can help.
@@ -86,12 +86,12 @@ export default function Contact() {
                                 link: "#contact-form"
                             }
                         ].map((method, idx) => (
-                            <a key={idx} href={method.link} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 border-2 border-gray-200 hover:border-[#C9A961] transition-all hover:shadow-xl group">
-                                <div className="w-16 h-16 bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <a key={idx} href={method.link} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 border-2 border-gray-200 hover:border-[#1E73BE] transition-all hover:shadow-xl group">
+                                <div className="w-16 h-16 bg-gradient-to-br from-[#1E73BE] to-[#155A96] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                     <method.Icon className="w-8 h-8 text-white" />
                                 </div>
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">{method.title}</h3>
-                                <p className="text-lg text-[#C9A961] font-semibold mb-1">{method.detail}</p>
+                                <p className="text-lg text-[#1E73BE] font-semibold mb-1">{method.detail}</p>
                                 <p className="text-gray-600">{method.subdDetail}</p>
                             </a>
                         ))}
@@ -113,7 +113,7 @@ export default function Contact() {
                                         id="name"
                                         name="name"
                                         required
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#C9A961] focus:outline-none transition-colors"
+                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors"
                                         placeholder="Your name"
                                     />
                                 </div>
@@ -127,7 +127,7 @@ export default function Contact() {
                                         id="email"
                                         name="email"
                                         required
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#C9A961] focus:outline-none transition-colors"
+                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors"
                                         placeholder="you@company.com"
                                     />
                                 </div>
@@ -141,7 +141,7 @@ export default function Contact() {
                                         id="company"
                                         name="company"
                                         required
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#C9A961] focus:outline-none transition-colors"
+                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors"
                                         placeholder="Your Company"
                                     />
                                 </div>
@@ -154,7 +154,7 @@ export default function Contact() {
                                         id="service"
                                         name="service"
                                         required
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#C9A961] focus:outline-none transition-colors"
+                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors"
                                     >
                                         <option value="">Select a service</option>
                                         <option value="email-support">Email Customer Support</option>
@@ -173,14 +173,14 @@ export default function Contact() {
                                         id="message"
                                         name="message"
                                         rows={4}
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#C9A961] focus:outline-none transition-colors resize-none"
+                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors resize-none"
                                         placeholder="Describe your customer support needs..."
                                     ></textarea>
                                 </div>
 
                                 <button
                                     type="submit"
-                                    className="w-full bg-gradient-to-r from-[#C9A961] to-[#a88a4d] text-white px-8 py-4 rounded-xl text-lg font-bold hover:shadow-xl transition-all hover:scale-[1.02] flex items-center justify-center gap-2"
+                                    className="w-full bg-gradient-to-r from-[#1E73BE] to-[#155A96] text-white px-8 py-4 rounded-xl text-lg font-bold hover:shadow-xl transition-all hover:scale-[1.02] flex items-center justify-center gap-2"
                                 >
                                     <Calendar className="w-5 h-5" />
                                     Request a Pilot
@@ -188,7 +188,7 @@ export default function Contact() {
 
                                 <p className="text-sm text-gray-500 text-center">
                                     By submitting this form, you agree to our{' '}
-                                    <a href="/privacy-policy" className="text-[#C9A961] hover:underline">Privacy Policy</a>
+                                    <a href="/privacy-policy" className="text-[#1E73BE] hover:underline">Privacy Policy</a>
                                 </p>
                             </form>
                         </div>
@@ -196,7 +196,7 @@ export default function Contact() {
                         {/* Office Info & Book a Call */}
                         <div className="space-y-8">
                             {/* Location Info */}
-                            <div className="bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-3xl p-8 sm:p-10 text-white">
+                            <div className="bg-gradient-to-br from-[#1E73BE] to-[#155A96] rounded-3xl p-8 sm:p-10 text-white">
                                 <h2 className="text-3xl font-bold mb-6">Contact Information</h2>
                                 <div className="space-y-6">
                                     <div className="flex items-start gap-4">
@@ -233,20 +233,20 @@ export default function Contact() {
 
                             {/* Book a Call CTA */}
                             <div id="book-call" className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-8 text-white text-center">
-                                <div className="w-16 h-16 bg-[#C9A961] rounded-2xl flex items-center justify-center mx-auto mb-6">
+                                <div className="w-16 h-16 bg-[#1E73BE] rounded-2xl flex items-center justify-center mx-auto mb-6">
                                     <Phone className="w-8 h-8 text-white" />
                                 </div>
                                 <h3 className="text-2xl font-bold mb-3">Book a 15-Minute Call</h3>
                                 <p className="text-gray-300 mb-6">
                                     Schedule a quick discovery call to discuss your customer support requirements.
                                 </p>
-                                <a href="mailto:info@aalishaan-global.com?subject=15-Minute Call Request" className="inline-block bg-[#C9A961] text-white px-8 py-4 rounded-full font-bold hover:bg-[#a88a4d] transition-all shadow-lg hover:scale-105">
+                                <a href="mailto:info@aalishaan-global.com?subject=15-Minute Call Request" className="inline-block bg-[#1E73BE] text-white px-8 py-4 rounded-full font-bold hover:bg-[#155A96] transition-all shadow-lg hover:scale-105">
                                     Schedule a Call
                                 </a>
                             </div>
 
                             {/* What to Expect */}
-                            <div className="bg-white rounded-2xl p-8 border-2 border-[#C9A961]/20 shadow-lg">
+                            <div className="bg-white rounded-2xl p-8 border-2 border-[#1E73BE]/20 shadow-lg">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-4">What to Expect</h3>
                                 <ul className="space-y-3">
                                     {[
@@ -256,7 +256,7 @@ export default function Contact() {
                                         "Low-risk pilot engagement option"
                                     ].map((item, idx) => (
                                         <li key={idx} className="flex items-start gap-3">
-                                            <CheckCircle2 className="w-6 h-6 text-[#C9A961] mt-0.5 flex-shrink-0" />
+                                            <CheckCircle2 className="w-6 h-6 text-[#1E73BE] mt-0.5 flex-shrink-0" />
                                             <span className="text-gray-700">{item}</span>
                                         </li>
                                     ))}
@@ -301,7 +301,7 @@ export default function Contact() {
                             <details key={idx} className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all group">
                                 <summary className="font-bold text-lg text-gray-900 cursor-pointer list-none flex items-center justify-between">
                                     {faq.q}
-                                    <svg className="w-6 h-6 text-[#C9A961] group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg className="w-6 h-6 text-[#1E73BE] group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                                     </svg>
                                 </summary>
@@ -318,7 +318,7 @@ export default function Contact() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/company.svg"
+                                src="/round_logo.png"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}
@@ -328,23 +328,24 @@ export default function Contact() {
                             <p className="text-gray-500 text-sm">Based in India | Global Delivery</p>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Quick Links</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Quick Links</h3>
                             <ul className="space-y-2">
-                                <li><a href="/" className="text-gray-400 hover:text-[#C9A961] transition-colors">Home</a></li>
-                                <li><a href="/services" className="text-gray-400 hover:text-[#C9A961] transition-colors">Services</a></li>
-                                <li><a href="/why-choose-us" className="text-gray-400 hover:text-[#C9A961] transition-colors">Why Choose Us</a></li>
+                                <li><a href="/" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Home</a></li>
+                                <li><a href="/services" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Services</a></li>
+                                <li><a href="/why-choose-us" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Why Choose Us</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Legal</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Legal</h3>
                             <ul className="space-y-2">
-                                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#C9A961] transition-colors">Privacy Policy</a></li>
-                                <li><a href="/gdpr" className="text-gray-400 hover:text-[#C9A961] transition-colors">GDPR</a></li>
-                                <li><a href="/terms" className="text-gray-400 hover:text-[#C9A961] transition-colors">Terms</a></li>
+                                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Privacy Policy</a></li>
+                                <li><a href="/gdpr" className="text-gray-400 hover:text-[#1E73BE] transition-colors">GDPR</a></li>
+                                <li><a href="/terms" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Terms</a></li>
+                                <li><a href="/security-compliance" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Security</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Contact</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
                                 <li>info@aalishaan-global.com</li>
                                 <li>Country: India</li>

@@ -12,7 +12,7 @@ export default function GDPR() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/company.svg"
+                                    src="/round_logo.png"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -22,10 +22,10 @@ export default function GDPR() {
                             </a>
                         </div>
                         <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
-                            <a href="/" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 Home
                             </a>
-                            <a href="/contact" className="bg-[#C9A961] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#a88a4d] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
+                            <a href="/contact" className="bg-[#1E73BE] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#155A96] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
                                 Request a Pilot
                             </a>
                         </nav>
@@ -39,8 +39,8 @@ export default function GDPR() {
             {/* Hero Section */}
             <section className="pt-32 sm:pt-36 md:pt-40 pb-12 bg-gradient-to-br from-gray-900 to-gray-800">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                    <div className="inline-block bg-[#C9A961]/20 backdrop-blur-sm border border-[#C9A961]/30 rounded-full px-6 py-2 mb-6">
-                        <span className="text-[#C9A961] font-semibold">🇪🇺 Data Protection</span>
+                    <div className="inline-block bg-[#1E73BE]/20 backdrop-blur-sm border border-[#1E73BE]/30 rounded-full px-6 py-2 mb-6">
+                        <span className="text-[#1E73BE] font-semibold">🇪🇺 Data Protection</span>
                     </div>
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
                         GDPR-Aligned Practices
@@ -65,7 +65,7 @@ export default function GDPR() {
                         {/* Our Commitment */}
                         <div className="mb-12">
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">1.</span> Our Data Protection Commitment
+                                <span className="text-[#1E73BE]">1.</span> Our Data Protection Commitment
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 We follow GDPR-aligned practices to ensure:
@@ -79,8 +79,8 @@ export default function GDPR() {
                                     { Icon: Users, title: "Integrity & Confidentiality", desc: "Appropriate security measures protect your data" }
                                 ].map((item, idx) => (
                                     <div key={idx} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                                        <div className="w-12 h-12 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mb-4">
-                                            <item.Icon className="w-6 h-6 text-[#C9A961]" />
+                                        <div className="w-12 h-12 bg-[#1E73BE]/10 rounded-xl flex items-center justify-center mb-4">
+                                            <item.Icon className="w-6 h-6 text-[#1E73BE]" />
                                         </div>
                                         <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
                                         <p className="text-gray-600 text-sm">{item.desc}</p>
@@ -92,7 +92,7 @@ export default function GDPR() {
                         {/* Your Rights */}
                         <div className="mb-12">
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">2.</span> Your Rights
+                                <span className="text-[#1E73BE]">2.</span> Your Rights
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Under GDPR principles, you have the following rights regarding your personal data:
@@ -107,18 +107,18 @@ export default function GDPR() {
                                     { title: "Right to Data Portability", desc: "You can request transfer of your data to another organization." },
                                     { title: "Right to Object", desc: "You can object to our processing of your personal data." }
                                 ].map((item, idx) => (
-                                    <div key={idx} className="border-l-4 border-[#C9A961] pl-6">
+                                    <div key={idx} className="border-l-4 border-[#1E73BE] pl-6">
                                         <h3 className="text-lg font-bold text-gray-900 mb-1">{item.title}</h3>
                                         <p className="text-gray-700">{item.desc}</p>
                                     </div>
                                 ))}
                             </div>
 
-                            <div className="bg-[#C9A961]/10 rounded-2xl p-6 mt-8 border border-[#C9A961]/20">
+                            <div className="bg-[#1E73BE]/10 rounded-2xl p-6 mt-8 border border-[#1E73BE]/20">
                                 <p className="text-gray-900 font-semibold mb-2">How to Exercise Your Rights</p>
                                 <p className="text-gray-700">
                                     To exercise any of these rights, please contact us at{' '}
-                                    <a href="mailto:info@aalishaan-global.com" className="text-[#C9A961] hover:underline font-semibold">info@aalishaan-global.com</a>
+                                    <a href="mailto:info@aalishaan-global.com" className="text-[#1E73BE] hover:underline font-semibold">info@aalishaan-global.com</a>
                                 </p>
                             </div>
                         </div>
@@ -126,7 +126,7 @@ export default function GDPR() {
                         {/* Data Protection Measures */}
                         <div className="mb-12">
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">3.</span> Data Protection Measures
+                                <span className="text-[#1E73BE]">3.</span> Data Protection Measures
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 We have implemented technical and organizational measures to protect your personal data:
@@ -140,8 +140,8 @@ export default function GDPR() {
                                     { Icon: Users, title: "Staff Training", desc: "Team trained on data protection" }
                                 ].map((item, idx) => (
                                     <div key={idx} className="bg-gray-50 rounded-xl p-4 text-center border border-gray-200">
-                                        <div className="w-10 h-10 bg-[#C9A961]/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-                                            <item.Icon className="w-5 h-5 text-[#C9A961]" />
+                                        <div className="w-10 h-10 bg-[#1E73BE]/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                                            <item.Icon className="w-5 h-5 text-[#1E73BE]" />
                                         </div>
                                         <h3 className="text-sm font-bold text-gray-900 mb-1">{item.title}</h3>
                                         <p className="text-gray-600 text-xs">{item.desc}</p>
@@ -153,26 +153,26 @@ export default function GDPR() {
                         {/* Data Breach */}
                         <div className="mb-12">
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">4.</span> Data Breach Response
+                                <span className="text-[#1E73BE]">4.</span> Data Breach Response
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-4">
                                 In the unlikely event of a data breach that poses a risk to your rights, we will:
                             </p>
                             <ul className="space-y-2 text-gray-700 ml-6">
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-[#C9A961] mt-0.5 flex-shrink-0" />
+                                    <CheckCircle2 className="w-5 h-5 text-[#1E73BE] mt-0.5 flex-shrink-0" />
                                     <span>Take immediate steps to mitigate the breach</span>
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-[#C9A961] mt-0.5 flex-shrink-0" />
+                                    <CheckCircle2 className="w-5 h-5 text-[#1E73BE] mt-0.5 flex-shrink-0" />
                                     <span>Notify affected individuals as appropriate</span>
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-[#C9A961] mt-0.5 flex-shrink-0" />
+                                    <CheckCircle2 className="w-5 h-5 text-[#1E73BE] mt-0.5 flex-shrink-0" />
                                     <span>Document the breach and our response</span>
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-[#C9A961] mt-0.5 flex-shrink-0" />
+                                    <CheckCircle2 className="w-5 h-5 text-[#1E73BE] mt-0.5 flex-shrink-0" />
                                     <span>Implement measures to prevent future occurrences</span>
                                 </li>
                             </ul>
@@ -181,14 +181,14 @@ export default function GDPR() {
                         {/* Contact */}
                         <div className="mb-12">
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                                <span className="text-[#C9A961]">5.</span> Contact Us
+                                <span className="text-[#1E73BE]">5.</span> Contact Us
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-4">
                                 For any data protection questions or to exercise your rights, please contact:
                             </p>
-                            <div className="bg-gradient-to-br from-[#C9A961]/10 to-white rounded-2xl p-6 border-2 border-[#C9A961]/20">
+                            <div className="bg-gradient-to-br from-[#1E73BE]/10 to-white rounded-2xl p-6 border-2 border-[#1E73BE]/20">
                                 <p className="text-gray-900 font-bold mb-4">Aalishaan Global BPO Services</p>
-                                <p className="text-gray-700 mb-2">Email: <a href="mailto:info@aalishaan-global.com" className="text-[#C9A961] hover:underline font-semibold">info@aalishaan-global.com</a></p>
+                                <p className="text-gray-700 mb-2">Email: <a href="mailto:info@aalishaan-global.com" className="text-[#1E73BE] hover:underline font-semibold">info@aalishaan-global.com</a></p>
                                 <p className="text-gray-700">Country: India</p>
                             </div>
                         </div>
@@ -206,7 +206,7 @@ export default function GDPR() {
                             { title: "Data Security", href: "/data-security" },
                             { title: "Terms of Service", href: "/terms" }
                         ].map((link, idx) => (
-                            <a key={idx} href={link.href} className="bg-white rounded-xl p-4 border-2 border-gray-200 hover:border-[#C9A961] transition-all text-center font-semibold text-gray-900 hover:text-[#C9A961]">
+                            <a key={idx} href={link.href} className="bg-white rounded-xl p-4 border-2 border-gray-200 hover:border-[#1E73BE] transition-all text-center font-semibold text-gray-900 hover:text-[#1E73BE]">
                                 {link.title}
                             </a>
                         ))}
@@ -220,7 +220,7 @@ export default function GDPR() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/company.svg"
+                                src="/round_logo.png"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}
@@ -230,23 +230,24 @@ export default function GDPR() {
                             <p className="text-gray-500 text-sm">Based in India | Global Delivery</p>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Quick Links</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Quick Links</h3>
                             <ul className="space-y-2">
-                                <li><a href="/" className="text-gray-400 hover:text-[#C9A961] transition-colors">Home</a></li>
-                                <li><a href="/services" className="text-gray-400 hover:text-[#C9A961] transition-colors">Services</a></li>
-                                <li><a href="/contact" className="text-gray-400 hover:text-[#C9A961] transition-colors">Contact</a></li>
+                                <li><a href="/" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Home</a></li>
+                                <li><a href="/services" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Services</a></li>
+                                <li><a href="/contact" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Contact</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Legal</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Legal</h3>
                             <ul className="space-y-2">
-                                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#C9A961] transition-colors">Privacy Policy</a></li>
-                                <li><a href="/gdpr" className="text-gray-400 hover:text-[#C9A961] transition-colors">GDPR</a></li>
-                                <li><a href="/terms" className="text-gray-400 hover:text-[#C9A961] transition-colors">Terms</a></li>
+                                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Privacy Policy</a></li>
+                                <li><a href="/gdpr" className="text-gray-400 hover:text-[#1E73BE] transition-colors">GDPR</a></li>
+                                <li><a href="/terms" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Terms</a></li>
+                                <li><a href="/security-compliance" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Security</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Contact</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
                                 <li>info@aalishaan-global.com</li>
                                 <li>Country: India</li>

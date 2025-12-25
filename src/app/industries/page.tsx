@@ -117,7 +117,7 @@ export default function Industries() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/company.svg"
+                                    src="/round_logo.png"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -127,22 +127,22 @@ export default function Industries() {
                             </a>
                         </div>
                         <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
-                            <a href="/services" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/services" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 Services
                             </a>
-                            <a href="/industries" className="text-[#C9A961] hover:text-[#a88a4d] font-semibold text-sm xl:text-base transition-colors">
+                            <a href="/industries" className="text-[#1E73BE] hover:text-[#155A96] font-semibold text-sm xl:text-base transition-colors">
                                 Industries
                             </a>
-                            <a href="/german-services" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/german-services" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 German Services
                             </a>
-                            <a href="/why-choose-us" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/why-choose-us" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 Why Us
                             </a>
-                            <a href="/about" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/about" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 About
                             </a>
-                            <a href="/contact" className="bg-[#C9A961] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#a88a4d] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
+                            <a href="/contact" className="bg-[#1E73BE] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#155A96] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
                                 Contact Us
                             </a>
                         </nav>
@@ -156,13 +156,13 @@ export default function Industries() {
             {/* Hero Section */}
             <section className="pt-32 sm:pt-36 md:pt-40 pb-16 sm:pb-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black relative overflow-hidden">
                 <div className="absolute inset-0 opacity-20">
-                    <div className="absolute top-20 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#C9A961] rounded-full filter blur-3xl animate-pulse"></div>
-                    <div className="absolute bottom-20 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#DC2626] rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+                    <div className="absolute top-20 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#1E73BE] rounded-full filter blur-3xl animate-pulse"></div>
+                    <div className="absolute bottom-20 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#6F8FA6] rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
                 </div>
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                        Industry <span className="bg-gradient-to-r from-[#C9A961] via-[#e8d7b0] to-[#C9A961] bg-clip-text text-transparent">Solutions</span>
+                        Industry <span className="bg-gradient-to-r from-[#1E73BE] via-[#5BA3E6] to-[#1E73BE] bg-clip-text text-transparent">Solutions</span>
                     </h1>
                     <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed">
                         We already understand your industry. Specialized BPO solutions tailored to your sector.
@@ -173,7 +173,7 @@ export default function Industries() {
             {/* Value Proposition */}
             <section className="py-16 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="bg-gradient-to-br from-[#C9A961]/10 to-white rounded-3xl p-8 sm:p-12 border-2 border-[#C9A961]/20">
+                    <div className="bg-gradient-to-br from-[#1E73BE]/10 to-white rounded-3xl p-8 sm:p-12 border-2 border-[#1E73BE]/20">
                         <div className="max-w-4xl mx-auto text-center">
                             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
                                 Why Industry Specialization Matters
@@ -183,15 +183,15 @@ export default function Industries() {
                             </p>
                             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                                 <div className="bg-white rounded-2xl p-6 shadow-md">
-                                    <div className="text-4xl font-bold text-[#C9A961] mb-2">50%</div>
+                                    <div className="text-4xl font-bold text-[#1E73BE] mb-2">50%</div>
                                     <div className="text-gray-700">Faster Onboarding</div>
                                 </div>
                                 <div className="bg-white rounded-2xl p-6 shadow-md">
-                                    <div className="text-4xl font-bold text-[#C9A961] mb-2">35%</div>
+                                    <div className="text-4xl font-bold text-[#1E73BE] mb-2">35%</div>
                                     <div className="text-gray-700">Higher CSAT Scores</div>
                                 </div>
                                 <div className="bg-white rounded-2xl p-6 shadow-md">
-                                    <div className="text-4xl font-bold text-[#C9A961] mb-2">60%</div>
+                                    <div className="text-4xl font-bold text-[#1E73BE] mb-2">60%</div>
                                     <div className="text-gray-700">Reduced Training Time</div>
                                 </div>
                             </div>
@@ -210,7 +210,7 @@ export default function Industries() {
                                     {/* Industry Header */}
                                     <div className="lg:col-span-2">
                                         <div className="flex items-start gap-6 mb-8">
-                                            <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-2xl flex items-center justify-center flex-shrink-0">
+                                            <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[#1E73BE] to-[#155A96] rounded-2xl flex items-center justify-center flex-shrink-0">
                                                 <industry.Icon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                                             </div>
                                             <div>
@@ -242,7 +242,7 @@ export default function Industries() {
                                         <ul className="space-y-2">
                                             {industry.services.map((service, i) => (
                                                 <li key={i} className="flex items-start gap-2 text-gray-700">
-                                                    <CheckCircle2 className="w-5 h-5 text-[#C9A961] mt-0.5 flex-shrink-0" />
+                                                    <CheckCircle2 className="w-5 h-5 text-[#1E73BE] mt-0.5 flex-shrink-0" />
                                                     {service}
                                                 </li>
                                             ))}
@@ -250,12 +250,12 @@ export default function Industries() {
                                     </div>
 
                                     {/* Results */}
-                                    <div className="bg-gradient-to-br from-[#C9A961]/10 to-white rounded-2xl p-6">
+                                    <div className="bg-gradient-to-br from-[#1E73BE]/10 to-white rounded-2xl p-6">
                                         <h3 className="text-xl font-bold text-gray-900 mb-4">Typical Results</h3>
                                         <ul className="space-y-3">
                                             {industry.results.map((result, i) => (
                                                 <li key={i} className="flex items-center gap-3">
-                                                    <div className="w-8 h-8 bg-[#C9A961] rounded-full flex items-center justify-center flex-shrink-0">
+                                                    <div className="w-8 h-8 bg-[#1E73BE] rounded-full flex items-center justify-center flex-shrink-0">
                                                         <Check className="w-5 h-5 text-white" />
                                                     </div>
                                                     <span className="text-gray-700 font-medium">{result}</span>
@@ -271,7 +271,7 @@ export default function Industries() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-16 sm:py-20 bg-gradient-to-r from-[#C9A961] via-[#a88a4d] to-[#C9A961]">
+            <section className="py-16 sm:py-20 bg-gradient-to-r from-[#1E73BE] via-[#155A96] to-[#1E73BE]">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
                         Don't See Your Industry?
@@ -280,7 +280,7 @@ export default function Industries() {
                         We work with businesses across many sectors. Let's discuss your specific needs.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="/contact" className="bg-white text-[#C9A961] px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105">
+                        <a href="/contact" className="bg-white text-[#1E73BE] px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105">
                             Contact Us
                         </a>
                         <a href="/german-services" className="bg-gray-900 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-800 transition-all shadow-2xl">
@@ -296,7 +296,7 @@ export default function Industries() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/company.svg"
+                                src="/round_logo.png"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}
@@ -305,23 +305,24 @@ export default function Industries() {
                             <p className="text-gray-400">Premium BPO services for global businesses.</p>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Quick Links</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Quick Links</h3>
                             <ul className="space-y-2">
-                                <li><a href="/" className="text-gray-400 hover:text-[#C9A961] transition-colors">Home</a></li>
-                                <li><a href="/services" className="text-gray-400 hover:text-[#C9A961] transition-colors">Services</a></li>
-                                <li><a href="/about" className="text-gray-400 hover:text-[#C9A961] transition-colors">About</a></li>
+                                <li><a href="/" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Home</a></li>
+                                <li><a href="/services" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Services</a></li>
+                                <li><a href="/about" className="text-gray-400 hover:text-[#1E73BE] transition-colors">About</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Legal</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Legal</h3>
                             <ul className="space-y-2">
-                                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#C9A961] transition-colors">Privacy Policy</a></li>
-                                <li><a href="/gdpr" className="text-gray-400 hover:text-[#C9A961] transition-colors">GDPR</a></li>
-                                <li><a href="/terms" className="text-gray-400 hover:text-[#C9A961] transition-colors">Terms</a></li>
+                                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Privacy Policy</a></li>
+                                <li><a href="/gdpr" className="text-gray-400 hover:text-[#1E73BE] transition-colors">GDPR</a></li>
+                                <li><a href="/terms" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Terms</a></li>
+                                <li><a href="/security-compliance" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Security</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Contact</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
                                 <li>info@aalishaan-global.com</li>
                                 <li>+1 (234) 567-8900</li>

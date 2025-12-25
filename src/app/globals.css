@@ -1,13 +1,49 @@
 @import "tailwindcss";
 
+/* ============================================
+   Modern Tech / Global SaaS Theme
+   Based on Logo Color Palette
+   ============================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Primary Colors */
+  --primary-blue: #1E73BE;
+  --primary-blue-hover: #155A96;
+  --primary-blue-light: #2A7FD3;
+
+  /* Dark Colors */
+  --charcoal: #1F1F1F;
+  --charcoal-light: #2A2A2A;
+
+  /* Secondary Colors */
+  --steel-blue: #6F8FA6;
+  --neutral-gray: #7A7A7A;
+  --neutral-gray-light: #9A9A9A;
+
+  /* Backgrounds */
+  --background: #FFFFFF;
+  --background-secondary: #F5F7FA;
+  --foreground: #1F1F1F;
+
+  /* Text Colors */
+  --text-primary: #1F1F1F;
+  --text-secondary: #5F6C7B;
+  --text-muted: #7A7A7A;
+
+  /* Borders */
+  --border-color: #E2E6EA;
+
+  /* Status Colors */
+  --success: #2FBF71;
+  --warning: #F5A623;
+  --error: #D64545;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary-blue);
+  --color-primary-hover: var(--primary-blue-hover);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -23,4 +59,30 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom utility classes for the theme */
+.text-primary-blue {
+  color: var(--primary-blue);
+}
+
+.bg-primary-blue {
+  background-color: var(--primary-blue);
+}
+
+.hover\:bg-primary-blue-hover:hover {
+  background-color: var(--primary-blue-hover);
+}
+
+.border-primary-blue {
+  border-color: var(--primary-blue);
+}
+
+/* Gradient utilities */
+.gradient-blue {
+  background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-light));
+}
+
+.gradient-dark {
+  background: linear-gradient(135deg, var(--charcoal), var(--charcoal-light));
 }

@@ -14,7 +14,7 @@ export default function Home() {
             {/* Logo */}
             <div>
               <Image
-                src="/company.svg"
+                src="/round_logo.png"
                 alt="Aalishaan Global BPO Services"
                 width={280}
                 height={95}
@@ -25,16 +25,19 @@ export default function Home() {
 
             {/* Desktop Navigation Menu */}
             <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
-              <a href="/services" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+              <a href="/services" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                 Services
               </a>
-              <a href="/why-choose-us" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+              <a href="/pricing" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
+                Pricing
+              </a>
+              <a href="/why-choose-us" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                 Why Us
               </a>
-              <a href="/about" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+              <a href="/about" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                 About
               </a>
-              <a href="/contact" className="bg-[#C9A961] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#a88a4d] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
+              <a href="/contact" className="bg-[#1E73BE] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#155A96] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
                 Request a Pilot
               </a>
             </nav>
@@ -49,14 +52,14 @@ export default function Home() {
       <section className="pt-32 sm:pt-36 md:pt-40 pb-16 sm:pb-20 md:pb-24 bg-gradient-to-br from-gray-900 via-gray-800 to-black relative overflow-hidden">
         {/* Animated Background Blobs */}
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-20 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#C9A961] rounded-full filter blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#DC2626] rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute top-20 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#1E73BE] rounded-full filter blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#6F8FA6] rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 leading-tight px-2">
-            <span className="block bg-gradient-to-r from-[#C9A961] via-[#e8d7b0] to-[#C9A961] bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-[#1E73BE] via-[#5BA3E6] to-[#1E73BE] bg-clip-text text-transparent">
               Customer Support Outsourcing
             </span>
             <span className="block mt-3 sm:mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
@@ -76,7 +79,7 @@ export default function Home() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-12 sm:mb-16 md:mb-20 px-4">
-            <a href="/contact" className="bg-[#C9A961] text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full text-lg sm:text-xl font-bold hover:bg-[#a88a4d] transition-all shadow-2xl hover:shadow-[#C9A961]/50 hover:scale-110 transform flex items-center justify-center gap-2">
+            <a href="/contact" className="bg-[#1E73BE] text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full text-lg sm:text-xl font-bold hover:bg-[#155A96] transition-all shadow-2xl hover:shadow-[#1E73BE]/50 hover:scale-110 transform flex items-center justify-center gap-2">
               <Calendar className="w-5 h-5" />
               Request a Pilot
             </a>
@@ -106,7 +109,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              About <span className="text-[#C9A961]">Aalishaan Global</span>
+              About <span className="text-[#1E73BE]">Aalishaan Global</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
               Aalishaan Global BPO Services helps growing companies manage customer interactions efficiently while maintaining quality, transparency, and consistency across global markets. We partner with startups and businesses in the UK, US, and Europe, providing structured workflows, professional communication, and transparent operations.
@@ -120,7 +123,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-              Our <span className="text-[#C9A961]">Services</span>
+              Our <span className="text-[#1E73BE]">Services</span>
             </h2>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
               Focused customer support solutions for travel and tech platforms
@@ -136,7 +139,7 @@ export default function Home() {
               { Icon: ClipboardList, title: "Ticket Management", desc: "Structured ticket handling, internal notes, SLA-based responses, and proper escalation to client teams." }
             ].map((service, idx) => (
               <div key={idx} className="group bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#1E73BE] to-[#155A96] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <service.Icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
@@ -146,7 +149,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <a href="/services" className="inline-block bg-[#C9A961] text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-[#a88a4d] transition-all shadow-xl hover:scale-105">
+            <a href="/services" className="inline-block bg-[#1E73BE] text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-[#155A96] transition-all shadow-xl hover:scale-105">
               View All Services
             </a>
           </div>
@@ -158,7 +161,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-              How We <span className="text-[#C9A961]">Work</span>
+              How We <span className="text-[#1E73BE]">Work</span>
             </h2>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
               A transparent, structured approach to partnership
@@ -174,12 +177,12 @@ export default function Home() {
               { step: "05", title: "Review & Scale", desc: "Performance review, feedback, and gradual scaling." }
             ].map((item, idx) => (
               <div key={idx} className="relative text-center">
-                <div className="text-5xl sm:text-6xl font-black text-[#C9A961]/20 mb-4">{item.step}</div>
+                <div className="text-5xl sm:text-6xl font-black text-[#1E73BE]/20 mb-4">{item.step}</div>
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
                 <p className="text-gray-600 text-sm sm:text-base leading-relaxed">{item.desc}</p>
                 {idx < 4 && (
                   <div className="hidden md:block absolute top-8 -right-4">
-                    <ArrowRight className="w-8 h-8 text-[#C9A961]" />
+                    <ArrowRight className="w-8 h-8 text-[#1E73BE]" />
                   </div>
                 )}
               </div>
@@ -193,7 +196,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Why Work <span className="text-[#C9A961]">With Us?</span>
+              Why Work <span className="text-[#1E73BE]">With Us?</span>
             </h2>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
               Honest, professional, and focused on long-term partnerships
@@ -210,7 +213,7 @@ export default function Home() {
               { Icon: CheckCircle2, title: "Pilot-Based Engagement", desc: "Start small, scale based on results", emoji: null }
             ].map((item, idx) => (
               <div key={idx} className="bg-white/10 backdrop-blur-lg rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-white/20 hover:bg-white/15 transition-all">
-                <div className="w-14 h-14 bg-[#C9A961] rounded-xl flex items-center justify-center mb-6">
+                <div className="w-14 h-14 bg-[#1E73BE] rounded-xl flex items-center justify-center mb-6">
                   {item.emoji ? <span className="text-2xl">{item.emoji}</span> : item.Icon && <item.Icon className="w-7 h-7 text-white" />}
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white mb-4">{item.title}</h3>
@@ -226,7 +229,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-              Tools & <span className="text-[#C9A961]">Workflows</span>
+              Tools & <span className="text-[#1E73BE]">Workflows</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our team is familiar with modern CX environments and ticket-based workflows
@@ -241,7 +244,7 @@ export default function Home() {
               "Knowledge-base responses"
             ].map((tool, idx) => (
               <div key={idx} className="bg-gray-50 rounded-xl p-6 text-center border border-gray-200">
-                <CheckCircle2 className="w-8 h-8 text-[#C9A961] mx-auto mb-3" />
+                <CheckCircle2 className="w-8 h-8 text-[#1E73BE] mx-auto mb-3" />
                 <span className="text-gray-700 font-medium">{tool}</span>
               </div>
             ))}
@@ -254,7 +257,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-              Who This Is <span className="text-[#C9A961]">For</span>
+              Who This Is <span className="text-[#1E73BE]">For</span>
             </h2>
           </div>
 
@@ -265,8 +268,8 @@ export default function Home() {
               "SaaS and technology companies",
               "Businesses serving UK, US, and European customers"
             ].map((item, idx) => (
-              <div key={idx} className="bg-white rounded-xl p-6 shadow-md text-center border-2 border-gray-100 hover:border-[#C9A961] transition-all">
-                <CheckCircle2 className="w-10 h-10 text-[#C9A961] mx-auto mb-4" />
+              <div key={idx} className="bg-white rounded-xl p-6 shadow-md text-center border-2 border-gray-100 hover:border-[#1E73BE] transition-all">
+                <CheckCircle2 className="w-10 h-10 text-[#1E73BE] mx-auto mb-4" />
                 <p className="text-gray-700 font-medium">{item}</p>
               </div>
             ))}
@@ -278,12 +281,94 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Pricing Preview Section */}
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+              Transparent <span className="text-[#1E73BE]">Pricing</span>
+            </h2>
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
+              Flexible, pilot-first pricing for UK, US, and European businesses
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            {/* UK */}
+            <div className="bg-gray-50 rounded-2xl p-6 border-2 border-gray-100 hover:border-[#1E73BE] transition-all">
+              <div className="text-center mb-4">
+                <span className="text-3xl">🇬🇧</span>
+                <h3 className="text-xl font-bold text-gray-900 mt-2">UK Pricing</h3>
+              </div>
+              <div className="space-y-3">
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-600">Email & Chat</span>
+                  <span className="font-bold text-[#1E73BE]">£9–12/hr</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-600">Voice Support</span>
+                  <span className="font-bold text-[#1E73BE]">£11–14/hr</span>
+                </div>
+              </div>
+            </div>
+
+            {/* US */}
+            <div className="bg-gradient-to-br from-[#1E73BE] to-[#155A96] rounded-2xl p-6 text-white relative">
+              <div className="absolute top-3 right-3 bg-white text-[#1E73BE] text-xs font-bold px-2 py-1 rounded-full">
+                POPULAR
+              </div>
+              <div className="text-center mb-4">
+                <span className="text-3xl">🇺🇸</span>
+                <h3 className="text-xl font-bold mt-2">US Pricing</h3>
+              </div>
+              <div className="space-y-3">
+                <div className="flex justify-between items-center">
+                  <span className="text-white/80">Email & Chat</span>
+                  <span className="font-bold">$10–13/hr</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-white/80">Voice Support</span>
+                  <span className="font-bold">$12–15/hr</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Europe */}
+            <div className="bg-gray-50 rounded-2xl p-6 border-2 border-gray-100 hover:border-[#1E73BE] transition-all">
+              <div className="text-center mb-4">
+                <span className="text-3xl">🇪🇺</span>
+                <h3 className="text-xl font-bold text-gray-900 mt-2">Europe Pricing</h3>
+              </div>
+              <div className="space-y-3">
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-600">Email & Chat</span>
+                  <span className="font-bold text-[#1E73BE]">€9–12/hr</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-600">German Support</span>
+                  <span className="font-bold text-[#1E73BE]">€12–15/hr</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <a href="/pricing" className="inline-block bg-[#1E73BE] text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-[#155A96] transition-all shadow-xl hover:scale-105">
+              View Full Pricing Details
+            </a>
+            <p className="text-gray-500 text-sm mt-4">
+              📌 All pricing includes NDA, quality monitoring, and supervisor oversight
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-              Frequently Asked <span className="text-[#C9A961]">Questions</span>
+              Frequently Asked <span className="text-[#1E73BE]">Questions</span>
             </h2>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600">
               Everything you need to know about our services
@@ -295,7 +380,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-r from-[#C9A961] via-[#a88a4d] to-[#C9A961]">
+      <section id="contact" className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-r from-[#1E73BE] via-[#155A96] to-[#1E73BE]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
             Start Small. Scale Confidently.
@@ -304,7 +389,7 @@ export default function Home() {
             We usually begin with a short pilot so you can evaluate quality, communication style, and workflow alignment before scaling.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <a href="/contact" className="bg-white text-[#C9A961] px-10 py-5 rounded-full text-xl font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105 flex items-center justify-center gap-2">
+            <a href="/contact" className="bg-white text-[#1E73BE] px-10 py-5 rounded-full text-xl font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105 flex items-center justify-center gap-2">
               <Calendar className="w-5 h-5" />
               Request a Pilot
             </a>
@@ -322,7 +407,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 mb-12">
             <div>
               <Image
-                src="/company.svg"
+                src="/round_logo.png"
                 alt="Aalishaan Global"
                 width={180}
                 height={60}
@@ -332,24 +417,26 @@ export default function Home() {
               <p className="text-gray-500 text-sm">Based in India | Global Delivery</p>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-6 text-[#C9A961]">Quick Links</h3>
+              <h3 className="text-xl font-bold mb-6 text-[#1E73BE]">Quick Links</h3>
               <ul className="space-y-3">
-                <li><a href="/services" className="text-gray-400 hover:text-[#C9A961] transition-colors text-lg">Services</a></li>
-                <li><a href="/about" className="text-gray-400 hover:text-[#C9A961] transition-colors text-lg">About Us</a></li>
-                <li><a href="/why-choose-us" className="text-gray-400 hover:text-[#C9A961] transition-colors text-lg">Why Choose Us</a></li>
-                <li><a href="/contact" className="text-gray-400 hover:text-[#C9A961] transition-colors text-lg">Contact</a></li>
+                <li><a href="/services" className="text-gray-400 hover:text-[#1E73BE] transition-colors text-lg">Services</a></li>
+                <li><a href="/pricing" className="text-gray-400 hover:text-[#1E73BE] transition-colors text-lg">Pricing</a></li>
+                <li><a href="/about" className="text-gray-400 hover:text-[#1E73BE] transition-colors text-lg">About Us</a></li>
+                <li><a href="/why-choose-us" className="text-gray-400 hover:text-[#1E73BE] transition-colors text-lg">Why Choose Us</a></li>
+                <li><a href="/contact" className="text-gray-400 hover:text-[#1E73BE] transition-colors text-lg">Contact</a></li>
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-6 text-[#C9A961]">Legal</h3>
+              <h3 className="text-xl font-bold mb-6 text-[#1E73BE]">Legal</h3>
               <ul className="space-y-3">
-                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#C9A961] transition-colors text-lg">Privacy Policy</a></li>
-                <li><a href="/gdpr" className="text-gray-400 hover:text-[#C9A961] transition-colors text-lg">GDPR</a></li>
-                <li><a href="/terms" className="text-gray-400 hover:text-[#C9A961] transition-colors text-lg">Terms of Service</a></li>
+                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#1E73BE] transition-colors text-lg">Privacy Policy</a></li>
+                <li><a href="/gdpr" className="text-gray-400 hover:text-[#1E73BE] transition-colors text-lg">GDPR</a></li>
+                <li><a href="/terms" className="text-gray-400 hover:text-[#1E73BE] transition-colors text-lg">Terms of Service</a></li>
+                <li><a href="/security-compliance" className="text-gray-400 hover:text-[#1E73BE] transition-colors text-lg">Security & Compliance</a></li>
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-6 text-[#C9A961]">Contact Info</h3>
+              <h3 className="text-xl font-bold mb-6 text-[#1E73BE]">Contact Info</h3>
               <ul className="space-y-3 text-gray-400 text-lg">
                 <li>Email: info@aalishaan-global.com</li>
                 <li>Country: India</li>

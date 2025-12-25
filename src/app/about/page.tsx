@@ -12,7 +12,7 @@ export default function About() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/company.svg"
+                                    src="/round_logo.png"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -22,16 +22,16 @@ export default function About() {
                             </a>
                         </div>
                         <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
-                            <a href="/services" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/services" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 Services
                             </a>
-                            <a href="/why-choose-us" className="text-gray-700 hover:text-[#C9A961] font-medium text-sm xl:text-base transition-colors">
+                            <a href="/why-choose-us" className="text-gray-700 hover:text-[#1E73BE] font-medium text-sm xl:text-base transition-colors">
                                 Why Us
                             </a>
-                            <a href="/about" className="text-[#C9A961] hover:text-[#a88a4d] font-semibold text-sm xl:text-base transition-colors">
+                            <a href="/about" className="text-[#1E73BE] hover:text-[#155A96] font-semibold text-sm xl:text-base transition-colors">
                                 About
                             </a>
-                            <a href="/contact" className="bg-[#C9A961] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#a88a4d] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
+                            <a href="/contact" className="bg-[#1E73BE] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#155A96] font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:scale-105">
                                 Request a Pilot
                             </a>
                         </nav>
@@ -45,13 +45,13 @@ export default function About() {
             {/* Hero Section */}
             <section className="pt-32 sm:pt-36 md:pt-40 pb-16 sm:pb-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black relative overflow-hidden">
                 <div className="absolute inset-0 opacity-20">
-                    <div className="absolute top-20 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#C9A961] rounded-full filter blur-3xl animate-pulse"></div>
-                    <div className="absolute bottom-20 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#DC2626] rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+                    <div className="absolute top-20 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#1E73BE] rounded-full filter blur-3xl animate-pulse"></div>
+                    <div className="absolute bottom-20 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#6F8FA6] rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
                 </div>
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                        About <span className="bg-gradient-to-r from-[#C9A961] via-[#e8d7b0] to-[#C9A961] bg-clip-text text-transparent">Aalishaan Global</span>
+                        About <span className="bg-gradient-to-r from-[#1E73BE] via-[#5BA3E6] to-[#1E73BE] bg-clip-text text-transparent">Aalishaan Global</span>
                     </h1>
                     <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed">
                         A customer experience outsourcing company supporting travel, mobility, and technology platforms worldwide.
@@ -63,11 +63,11 @@ export default function About() {
             <section className="py-16 sm:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-4xl mx-auto">
-                        <div className="inline-block bg-[#C9A961]/10 rounded-full px-6 py-2 mb-6">
-                            <span className="text-[#C9A961] font-semibold">Who We Are</span>
+                        <div className="inline-block bg-[#1E73BE]/10 rounded-full px-6 py-2 mb-6">
+                            <span className="text-[#1E73BE] font-semibold">Who We Are</span>
                         </div>
                         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8">
-                            Customer Experience <span className="text-[#C9A961]">Partner</span>
+                            Customer Experience <span className="text-[#1E73BE]">Partner</span>
                         </h2>
                         <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                             <p>
@@ -77,7 +77,7 @@ export default function About() {
                                 We work with startups and growing businesses in the UK, US, and Europe, helping them manage customer interactions through structured workflows, professional communication, and transparent operations.
                             </p>
                             <p className="text-xl font-semibold text-gray-900">
-                                Our focus is simple: <span className="text-[#C9A961]">Reliable people. Clear processes. Ethical delivery.</span>
+                                Our focus is simple: <span className="text-[#1E73BE]">Reliable people. Clear processes. Ethical delivery.</span>
                             </p>
                         </div>
                     </div>
@@ -88,8 +88,8 @@ export default function About() {
             <section className="py-16 sm:py-20 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                        <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 sm:p-10 border-2 border-gray-200 hover:border-[#C9A961] transition-all">
-                            <div className="w-16 h-16 bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-2xl flex items-center justify-center mb-6">
+                        <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 sm:p-10 border-2 border-gray-200 hover:border-[#1E73BE] transition-all">
+                            <div className="w-16 h-16 bg-gradient-to-br from-[#1E73BE] to-[#155A96] rounded-2xl flex items-center justify-center mb-6">
                                 <Target className="w-8 h-8 text-white" />
                             </div>
                             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
@@ -98,7 +98,7 @@ export default function About() {
                             </p>
                         </div>
 
-                        <div className="bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-3xl p-8 sm:p-10 text-white">
+                        <div className="bg-gradient-to-br from-[#1E73BE] to-[#155A96] rounded-3xl p-8 sm:p-10 text-white">
                             <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-6">
                                 <TrendingUp className="w-8 h-8 text-white" />
                             </div>
@@ -116,7 +116,7 @@ export default function About() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                            Our <span className="text-[#C9A961]">Values</span>
+                            Our <span className="text-[#1E73BE]">Values</span>
                         </h2>
                     </div>
 
@@ -129,7 +129,7 @@ export default function About() {
                             { Icon: TrendingUp, title: "Continuous Improvement", desc: "Always learning and growing" }
                         ].map((value, idx) => (
                             <div key={idx} className="bg-gray-50 rounded-2xl p-6 text-center hover:shadow-lg transition-all">
-                                <div className="w-14 h-14 bg-gradient-to-br from-[#C9A961] to-[#a88a4d] rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <div className="w-14 h-14 bg-gradient-to-br from-[#1E73BE] to-[#155A96] rounded-xl flex items-center justify-center mx-auto mb-4">
                                     <value.Icon className="w-7 h-7 text-white" />
                                 </div>
                                 <h3 className="text-lg font-bold text-gray-900 mb-2">{value.title}</h3>
@@ -145,7 +145,7 @@ export default function About() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                            Meet Our <span className="text-[#C9A961]">Team</span>
+                            Meet Our <span className="text-[#1E73BE]">Team</span>
                         </h2>
                         <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
                             The dedicated professionals behind Aalishaan Global's success
@@ -185,10 +185,10 @@ export default function About() {
                                 role: "Support Specialist"
                             }
                         ].map((member, idx) => (
-                            <div key={idx} className="group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-gray-100 hover:border-[#C9A961]">
+                            <div key={idx} className="group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-gray-100 hover:border-[#1E73BE]">
                                 <div className="relative mb-6">
                                     {/* Circular image with gold gradient border */}
-                                    <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gradient-to-br from-[#C9A961] to-[#a88a4d] p-1 shadow-lg">
+                                    <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gradient-to-br from-[#1E73BE] to-[#155A96] p-1 shadow-lg">
                                         <div className="w-full h-full rounded-full overflow-hidden bg-white">
                                             <Image
                                                 src={member.image}
@@ -202,7 +202,7 @@ export default function About() {
                                 </div>
                                 <div className="text-center">
                                     <h3 className="text-2xl font-bold text-gray-900 mb-2">{member.name}</h3>
-                                    <p className="text-[#C9A961] font-semibold text-lg">{member.role}</p>
+                                    <p className="text-[#1E73BE] font-semibold text-lg">{member.role}</p>
                                 </div>
                             </div>
                         ))}
@@ -211,7 +211,7 @@ export default function About() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-16 sm:py-20 bg-gradient-to-r from-[#C9A961] via-[#a88a4d] to-[#C9A961]">
+            <section className="py-16 sm:py-20 bg-gradient-to-r from-[#1E73BE] via-[#155A96] to-[#1E73BE]">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
                         Ready to Work Together?
@@ -220,7 +220,7 @@ export default function About() {
                         Let's discuss how Aalishaan Global can support your business growth.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="/contact" className="bg-white text-[#C9A961] px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105 flex items-center justify-center gap-2">
+                        <a href="/contact" className="bg-white text-[#1E73BE] px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all shadow-2xl hover:scale-105 flex items-center justify-center gap-2">
                             <Calendar className="w-5 h-5" />
                             Request a Pilot
                         </a>
@@ -238,7 +238,7 @@ export default function About() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/company.svg"
+                                src="/round_logo.png"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}
@@ -248,23 +248,24 @@ export default function About() {
                             <p className="text-gray-500 text-sm">Based in India | Global Delivery</p>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Quick Links</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Quick Links</h3>
                             <ul className="space-y-2">
-                                <li><a href="/" className="text-gray-400 hover:text-[#C9A961] transition-colors">Home</a></li>
-                                <li><a href="/services" className="text-gray-400 hover:text-[#C9A961] transition-colors">Services</a></li>
-                                <li><a href="/why-choose-us" className="text-gray-400 hover:text-[#C9A961] transition-colors">Why Choose Us</a></li>
+                                <li><a href="/" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Home</a></li>
+                                <li><a href="/services" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Services</a></li>
+                                <li><a href="/why-choose-us" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Why Choose Us</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Legal</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Legal</h3>
                             <ul className="space-y-2">
-                                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#C9A961] transition-colors">Privacy Policy</a></li>
-                                <li><a href="/gdpr" className="text-gray-400 hover:text-[#C9A961] transition-colors">GDPR</a></li>
-                                <li><a href="/terms" className="text-gray-400 hover:text-[#C9A961] transition-colors">Terms</a></li>
+                                <li><a href="/privacy-policy" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Privacy Policy</a></li>
+                                <li><a href="/gdpr" className="text-gray-400 hover:text-[#1E73BE] transition-colors">GDPR</a></li>
+                                <li><a href="/terms" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Terms</a></li>
+                                <li><a href="/security-compliance" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Security</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#C9A961]">Contact</h3>
+                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
                                 <li>info@aalishaan-global.com</li>
                                 <li>Country: India</li>

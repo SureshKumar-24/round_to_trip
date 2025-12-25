@@ -20,7 +20,7 @@ export default function MobileMenu() {
             {/* Mobile Menu Button - Shows on screens smaller than lg */}
             <button
                 onClick={toggleMenu}
-                className="lg:hidden p-3 bg-[#C9A961] text-white rounded-lg hover:bg-[#a88a4d] transition-all shadow-lg"
+                className="lg:hidden p-3 bg-[#1E73BE] text-white rounded-lg hover:bg-[#155A96] transition-all shadow-lg"
                 aria-label="Toggle menu"
             >
                 {isOpen ? (
@@ -48,7 +48,7 @@ export default function MobileMenu() {
                     {/* Close Button */}
                     <button
                         onClick={closeMenu}
-                        className="absolute top-6 right-6 p-2 bg-gray-900 text-white rounded-lg hover:bg-[#C9A961] transition-all shadow-lg"
+                        className="absolute top-6 right-6 p-2 bg-gray-900 text-white rounded-lg hover:bg-[#1E73BE] transition-all shadow-lg"
                     >
                         <X className="w-6 h-6 stroke-[2.5]" />
                     </button>
@@ -56,7 +56,7 @@ export default function MobileMenu() {
                     {/* Logo */}
                     <div className="mb-6 mt-2">
                         <Image
-                            src="/company.svg"
+                            src="/round_logo.png"
                             alt="Aalishaan Global"
                             width={150}
                             height={50}
@@ -72,21 +72,28 @@ export default function MobileMenu() {
                         <a
                             href="/services"
                             onClick={closeMenu}
-                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
+                            className="text-gray-700 hover:text-[#1E73BE] font-medium text-lg py-2 transition-colors"
                         >
                             Services
                         </a>
                         <a
+                            href="/pricing"
+                            onClick={closeMenu}
+                            className="text-gray-700 hover:text-[#1E73BE] font-medium text-lg py-2 transition-colors"
+                        >
+                            Pricing
+                        </a>
+                        <a
                             href="/why-choose-us"
                             onClick={closeMenu}
-                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
+                            className="text-gray-700 hover:text-[#1E73BE] font-medium text-lg py-2 transition-colors"
                         >
                             Why Us
                         </a>
                         <a
                             href="/about"
                             onClick={closeMenu}
-                            className="text-gray-700 hover:text-[#C9A961] font-medium text-lg py-2 transition-colors"
+                            className="text-gray-700 hover:text-[#1E73BE] font-medium text-lg py-2 transition-colors"
                         >
                             About
                         </a>
@@ -98,7 +105,7 @@ export default function MobileMenu() {
                         <a
                             href="/contact"
                             onClick={closeMenu}
-                            className="bg-[#C9A961] text-white px-6 py-3 rounded-full hover:bg-[#a88a4d] font-semibold text-lg transition-all text-center flex items-center justify-center gap-2"
+                            className="bg-[#1E73BE] text-white px-6 py-3 rounded-full hover:bg-[#155A96] font-semibold text-lg transition-all text-center flex items-center justify-center gap-2"
                         >
                             <Calendar className="w-5 h-5" />
                             Request a Pilot
