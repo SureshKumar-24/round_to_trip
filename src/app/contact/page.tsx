@@ -1,5 +1,6 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
+import ContactForm from "@/components/ContactForm";
 import { Mail, Phone, MessageSquare, Calendar, MapPin, Clock, CheckCircle2 } from "lucide-react";
 
 export default function Contact() {
@@ -100,97 +101,8 @@ export default function Contact() {
                     {/* Contact Form and Office Info */}
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                         {/* Contact Form */}
-                        <div id="contact-form" className="bg-white rounded-3xl shadow-xl p-8 sm:p-10 border border-gray-200">
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6">Request a Pilot</h2>
-                            <p className="text-gray-600 mb-8">Tell us about your support needs and we'll get back to you with next steps.</p>
-                            <form className="space-y-6">
-                                <div>
-                                    <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
-                                        Full Name *
-                                    </label>
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        name="name"
-                                        required
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors"
-                                        placeholder="Your name"
-                                    />
-                                </div>
-
-                                <div>
-                                    <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
-                                        Business Email *
-                                    </label>
-                                    <input
-                                        type="email"
-                                        id="email"
-                                        name="email"
-                                        required
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors"
-                                        placeholder="you@company.com"
-                                    />
-                                </div>
-
-                                <div>
-                                    <label htmlFor="company" className="block text-sm font-semibold text-gray-700 mb-2">
-                                        Company Name *
-                                    </label>
-                                    <input
-                                        type="text"
-                                        id="company"
-                                        name="company"
-                                        required
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors"
-                                        placeholder="Your Company"
-                                    />
-                                </div>
-
-                                <div>
-                                    <label htmlFor="service" className="block text-sm font-semibold text-gray-700 mb-2">
-                                        Service Interested In *
-                                    </label>
-                                    <select
-                                        id="service"
-                                        name="service"
-                                        required
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors"
-                                    >
-                                        <option value="">Select a service</option>
-                                        <option value="email-support">Email Customer Support</option>
-                                        <option value="live-chat">Live Chat Support</option>
-                                        <option value="travel-support">Travel & Booking Support</option>
-                                        <option value="ticket-management">Ticket Management & Escalation</option>
-                                        <option value="multiple">Multiple Services</option>
-                                    </select>
-                                </div>
-
-                                <div>
-                                    <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
-                                        Tell us about your requirements
-                                    </label>
-                                    <textarea
-                                        id="message"
-                                        name="message"
-                                        rows={4}
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#1E73BE] focus:outline-none transition-colors resize-none"
-                                        placeholder="Describe your customer support needs..."
-                                    ></textarea>
-                                </div>
-
-                                <button
-                                    type="submit"
-                                    className="w-full bg-gradient-to-r from-[#1E73BE] to-[#155A96] text-white px-8 py-4 rounded-xl text-lg font-bold hover:shadow-xl transition-all hover:scale-[1.02] flex items-center justify-center gap-2"
-                                >
-                                    <Calendar className="w-5 h-5" />
-                                    Request a Pilot
-                                </button>
-
-                                <p className="text-sm text-gray-500 text-center">
-                                    By submitting this form, you agree to our{' '}
-                                    <a href="/privacy-policy" className="text-[#1E73BE] hover:underline">Privacy Policy</a>
-                                </p>
-                            </form>
+                        <div id="contact-form">
+                            <ContactForm />
                         </div>
 
                         {/* Office Info & Book a Call */}
