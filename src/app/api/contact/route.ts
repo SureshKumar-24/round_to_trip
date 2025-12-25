@@ -1,5 +1,6 @@
 import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
+import { sql } from '@/lib/db';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -375,8 +376,19 @@ export async function POST(request: NextRequest) {
             );
         }
 
+        // Save contact to database
+        try {
+            await sql`
+                INSERT INTO contacts (name, email, company, service, message, status)
+                VALUES (${name}, ${email}, ${company}, ${service}, ${message || ''}, 'new')
+            `;
+        } catch (dbError) {
+            console.error('Database error (contact still sent via email):', dbError);
+            // Don't fail the request if DB save fails, email was already sent
+        }
+
         return NextResponse.json(
-            { success: true, message: 'Email sent successfully', id: data?.id },
+            { success: true, message: 'Request submitted successfully', id: data?.id },
             { status: 200 }
         );
     } catch (error) {
