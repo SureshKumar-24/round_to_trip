@@ -58,7 +58,7 @@ export default function MobileMenu() {
                     {/* Logo */}
                     <div className="mb-6 mt-2">
                         <Image
-                            src="/logo_round.svg"
+                            src="/company.svg"
                             alt="Aalishaan Global"
                             width={150}
                             height={50}

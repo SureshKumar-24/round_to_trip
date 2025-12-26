@@ -115,7 +115,7 @@ export default function AdminDashboard() {
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-4">
                             <Image
-                                src="/logo_round.svg"
+                                src="/company.svg"
                                 alt="Round To Trip"
                                 width={150}
                                 height={50}

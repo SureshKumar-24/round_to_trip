@@ -53,7 +53,7 @@ export default function AdminLogin() {
                 {/* Logo */}
                 <div className="text-center mb-8">
                     <Image
-                        src="/logo_round.svg"
+                        src="/company.svg"
                         alt="Round To Trip"
                         width={200}
                         height={70}

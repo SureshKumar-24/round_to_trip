@@ -36,7 +36,7 @@ export default function Terms() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/logo_round.svg"
+                                    src="/company.svg"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -213,7 +213,7 @@ export default function Terms() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/logo_round.svg"
+                                src="/company.svg"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}

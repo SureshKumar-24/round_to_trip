@@ -40,7 +40,7 @@ export default function Home() {
             {/* Logo */}
             <div>
               <Image
-                src="/logo_round.svg"
+                src="/company.svg"
                 alt="Aalishaan Global BPO Services"
                 width={280}
                 height={95}
@@ -351,7 +351,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 mb-12">
             <div>
               <Image
-                src="/logo_round.svg"
+                src="/company.svg"
                 alt="Aalishaan Global"
                 width={180}
                 height={60}
