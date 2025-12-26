@@ -158,6 +158,16 @@ export default function Contact() {
 
                                     <div className="flex items-start gap-4">
                                         <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0">
+                                            <Phone className="w-6 h-6 text-white" />
+                                        </div>
+                                        <div>
+                                            <h3 className="text-xl font-bold mb-1">Phone</h3>
+                                            <p className="text-white/90">+91 9990889777</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="flex items-start gap-4">
+                                        <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0">
                                             <Clock className="w-6 h-6 text-white" />
                                         </div>
                                         <div>
@@ -285,6 +295,7 @@ export default function Contact() {
                             <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
                                 <li>info@aalishaanglobalbposervices.com</li>
+                                <li>+91 9990889777</li>
                                 <li>Country: India</li>
                             </ul>
                         </div>

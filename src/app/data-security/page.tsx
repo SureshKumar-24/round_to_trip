@@ -469,7 +469,7 @@ export default function DataSecurity() {
                         <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
                             <p className="text-gray-700 mb-2"><strong>Security Team</strong></p>
                             <p className="text-gray-700 mb-2">Email: <a href="mailto:security@aalishaanglobalbposervices.com" className="text-[#1E73BE] hover:underline font-semibold">security@aalishaanglobalbposervices.com</a></p>
-                            <p className="text-gray-700">Phone: +1 (234) 567-8900</p>
+                            <p className="text-gray-700">Phone: +91 9990889777</p>
                         </div>
                     </div>
                 </div>
@@ -525,13 +525,11 @@ export default function DataSecurity() {
                                 <li><a href="/security-compliance" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Security</a></li>
                             </ul>
                         </div>
-                        <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
-                            <ul className="space-y-2 text-gray-400">
-                                <li>info@aalishaanglobalbposervices.com</li>
-                                <li>+1 (234) 567-8900</li>
-                            </ul>
-                        </div>
+                        <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
+                        <ul className="space-y-2 text-gray-400">
+                            <li>info@aalishaanglobalbposervices.com</li>
+                            <li>+91 9990889777</li>
+                        </ul>
                     </div>
                     <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
                         <p>&copy; 2026 Aalishaan Global BPO Services. All rights reserved.</p>

@@ -347,13 +347,11 @@ export default function Industries() {
                                 <li><a href="/security-compliance" className="text-gray-400 hover:text-[#1E73BE] transition-colors">Security</a></li>
                             </ul>
                         </div>
-                        <div>
-                            <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
-                            <ul className="space-y-2 text-gray-400">
-                                <li>info@aalishaanglobalbposervices.com</li>
-                                <li>+1 (234) 567-8900</li>
-                            </ul>
-                        </div>
+                        <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
+                        <ul className="space-y-2 text-gray-400">
+                            <li>info@aalishaanglobalbposervices.com</li>
+                            <li>+91 9990889777</li>
+                        </ul>
                     </div>
                     <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
                         <p>&copy; 2026 Aalishaan Global BPO Services. All rights reserved.</p>

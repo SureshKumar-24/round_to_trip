@@ -383,6 +383,7 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-6 text-[#1E73BE]">Contact Info</h3>
               <ul className="space-y-3 text-gray-400 text-lg">
                 <li>Email: info@aalishaanglobalbposervices.com</li>
+                <li>Phone: +91 9990889777</li>
                 <li>Country: India</li>
               </ul>
             </div>
