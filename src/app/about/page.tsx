@@ -1,6 +1,31 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import { CheckCircle2, Target, Handshake, Shield, Lightbulb, TrendingUp, Calendar, Phone } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "About Us - Our Team & Mission",
+    description:
+        "Learn about Aalishaan Global BPO Services - a customer experience outsourcing company supporting travel, mobility, and technology platforms worldwide. Meet our dedicated team.",
+    keywords: [
+        "about Aalishaan Global",
+        "BPO company India",
+        "customer experience team",
+        "outsourcing partner",
+        "travel support company",
+        "CX outsourcing team",
+    ],
+    openGraph: {
+        title: "About Aalishaan Global BPO Services",
+        description:
+            "A customer experience outsourcing company supporting travel, mobility, and technology platforms worldwide.",
+        url: "/about",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/about",
+    },
+};
 
 export default function About() {
     return (

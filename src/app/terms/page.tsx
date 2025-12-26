@@ -1,5 +1,30 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Terms of Service - Engagement Guidelines",
+    description:
+        "Review the Terms of Service for Aalishaan Global BPO Services. Understand our service engagement process, confidentiality policies, and legal terms.",
+    keywords: [
+        "terms of service",
+        "terms and conditions",
+        "BPO agreement",
+        "service terms",
+        "legal terms",
+        "engagement terms",
+    ],
+    openGraph: {
+        title: "Terms of Service - Aalishaan Global BPO Services",
+        description:
+            "Our service engagement process, confidentiality policies, and legal terms.",
+        url: "/terms",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/terms",
+    },
+};
 
 export default function Terms() {
     return (

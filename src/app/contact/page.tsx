@@ -2,6 +2,31 @@ import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import ContactForm from "@/components/ContactForm";
 import { Mail, Phone, MessageSquare, Calendar, MapPin, Clock, CheckCircle2 } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Contact Us - Request a Pilot Program",
+    description:
+        "Get in touch with Aalishaan Global BPO Services. Request a pilot program, book a discovery call, or email us to discuss your customer support outsourcing needs.",
+    keywords: [
+        "contact Aalishaan Global",
+        "BPO contact",
+        "request pilot program",
+        "customer support consultation",
+        "outsourcing inquiry",
+        "book a call",
+    ],
+    openGraph: {
+        title: "Contact Aalishaan Global BPO Services",
+        description:
+            "Request a pilot program or book a discovery call to discuss your customer support outsourcing needs.",
+        url: "/contact",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/contact",
+    },
+};
 
 export default function Contact() {
     return (

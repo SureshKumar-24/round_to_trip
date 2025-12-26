@@ -1,6 +1,31 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import { Shield, Lock, FileCheck, Users, Bell, HelpCircle, CheckCircle2 } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "GDPR Compliance - Data Protection Practices",
+    description:
+        "Learn about Aalishaan Global's GDPR-aligned data protection practices. We respect your privacy and protect your personal data in accordance with EU data protection principles.",
+    keywords: [
+        "GDPR compliance",
+        "data protection",
+        "EU data privacy",
+        "personal data rights",
+        "data security",
+        "privacy policy",
+    ],
+    openGraph: {
+        title: "GDPR Compliance - Aalishaan Global BPO Services",
+        description:
+            "Our commitment to protecting your data in accordance with GDPR principles.",
+        url: "/gdpr",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/gdpr",
+    },
+};
 
 export default function GDPR() {
     return (

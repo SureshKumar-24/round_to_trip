@@ -1,5 +1,30 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Privacy Policy - How We Protect Your Data",
+    description:
+        "Read Aalishaan Global's Privacy Policy. Learn how we collect, use, and protect your personal information in accordance with GDPR and global data protection standards.",
+    keywords: [
+        "privacy policy",
+        "data protection",
+        "personal data",
+        "GDPR privacy",
+        "data security",
+        "information protection",
+    ],
+    openGraph: {
+        title: "Privacy Policy - Aalishaan Global BPO Services",
+        description:
+            "How we collect, use, and protect your personal information.",
+        url: "/privacy-policy",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/privacy-policy",
+    },
+};
 
 export default function PrivacyPolicy() {
     return (

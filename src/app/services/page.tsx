@@ -1,6 +1,33 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import { Mail, MessageSquare, Plane, ClipboardList, CheckCircle2, Calendar, Phone } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Our Services - Email, Chat & Booking Support",
+    description:
+        "Professional BPO services including email customer support, live chat support, travel & booking assistance, and ticket management. English & German language support available.",
+    keywords: [
+        "email customer support",
+        "live chat support",
+        "travel booking support",
+        "ticket management",
+        "BPO services",
+        "customer support services",
+        "multilingual support",
+        "Zendesk support",
+    ],
+    openGraph: {
+        title: "Our Services - Email, Chat & Booking Support",
+        description:
+            "Professional BPO services including email support, live chat, travel booking assistance, and ticket management.",
+        url: "/services",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/services",
+    },
+};
 
 export default function Services() {
     const services = [

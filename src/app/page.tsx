@@ -2,7 +2,33 @@ import Image from "next/image";
 import FAQAccordion from "@/components/FAQAccordion";
 import MobileMenu from "@/components/MobileMenu";
 import { Mail, MessageSquare, Plane, ClipboardList, Users, Shield, CheckCircle2, ArrowRight, Calendar, Phone } from "lucide-react";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Customer Support Outsourcing for Travel & Tech | Aalishaan Global",
+  description:
+    "Premium customer support outsourcing for UK, US & European travel and tech platforms. Professional email, chat, and booking support with English & German capabilities. Request a pilot today!",
+  keywords: [
+    "customer support outsourcing",
+    "travel tech support",
+    "BPO services India",
+    "email support outsourcing",
+    "live chat support",
+    "travel booking support",
+    "UK customer service",
+    "German language support",
+  ],
+  openGraph: {
+    title: "Customer Support Outsourcing for Travel & Tech | Aalishaan Global",
+    description:
+      "Premium customer support outsourcing for UK, US & European travel and tech platforms. Professional email, chat, and booking support.",
+    url: "/",
+    type: "website",
+  },
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Home() {
   return (

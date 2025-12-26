@@ -1,6 +1,32 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import { Shield, Lock, Monitor, Globe, Users, BarChart3, RefreshCw, Handshake, Mail, Calendar, Phone, CheckCircle2 } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Security & Compliance - Enterprise-Grade Protection",
+    description:
+        "Learn about our robust security framework. Data protection, access control, GDPR awareness, agent training, and continuous improvement for enterprise-level security.",
+    keywords: [
+        "security compliance",
+        "data security",
+        "BPO security",
+        "access control",
+        "GDPR compliance",
+        "enterprise security",
+        "data protection",
+    ],
+    openGraph: {
+        title: "Security & Compliance - Aalishaan Global BPO Services",
+        description:
+            "Enterprise-grade security with data protection, access control, and GDPR awareness.",
+        url: "/security-compliance",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/security-compliance",
+    },
+};
 
 export default function SecurityCompliance() {
     return (

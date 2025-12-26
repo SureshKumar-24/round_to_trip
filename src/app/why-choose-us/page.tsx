@@ -1,6 +1,32 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import { CheckCircle2, Users, Shield, Zap, MessageSquare, Plane, Calendar, Phone, ArrowRight } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Why Choose Us - Your Trusted BPO Partner",
+    description:
+        "Discover why businesses choose Aalishaan Global for customer support outsourcing. Trained CX professionals, German language capability, ethical operations, and pilot-based engagement.",
+    keywords: [
+        "why choose BPO",
+        "trusted outsourcing partner",
+        "trained customer support team",
+        "German language support",
+        "ethical BPO",
+        "pilot engagement",
+        "CX professionals",
+    ],
+    openGraph: {
+        title: "Why Choose Aalishaan Global BPO Services",
+        description:
+            "Trained CX professionals, German language capability, ethical operations, and flexible pilot-based engagement.",
+        url: "/why-choose-us",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/why-choose-us",
+    },
+};
 
 export default function WhyChooseUs() {
     return (

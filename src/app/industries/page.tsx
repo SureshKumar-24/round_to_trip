@@ -1,6 +1,32 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import { Plane, ShoppingCart, ShoppingBag, DollarSign, Monitor, Smartphone, CheckCircle2, Check, AlertTriangle } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Industry Solutions - Specialized BPO Services",
+    description:
+        "Industry-specific BPO solutions for travel, airlines, e-commerce, fintech, SaaS, and digital brands. We understand your industry and deliver tailored support.",
+    keywords: [
+        "travel BPO",
+        "airline customer support",
+        "e-commerce BPO",
+        "fintech support",
+        "SaaS customer service",
+        "industry-specific BPO",
+        "German travel support",
+    ],
+    openGraph: {
+        title: "Industry Solutions - Aalishaan Global BPO Services",
+        description:
+            "Specialized BPO solutions tailored to your industry sector.",
+        url: "/industries",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/industries",
+    },
+};
 
 export default function Industries() {
     const industries = [

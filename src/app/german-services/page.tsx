@@ -1,6 +1,32 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import { CheckCircle2, Plane, ShoppingCart, DollarSign, Monitor, Building2, ShoppingBag, Smile, Clock, Award } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "German Language BPO Services - Native German Support",
+    description:
+        "Native-level German customer support (C1/C2 proficiency) for Germany, Austria, and Switzerland. Travel, e-commerce, fintech, and SaaS industries served. Pilot-first approach.",
+    keywords: [
+        "German customer support",
+        "German language BPO",
+        "Deutsch Kundenservice",
+        "Germany Austria Switzerland support",
+        "C1 C2 German",
+        "native German speakers",
+        "German travel support",
+    ],
+    openGraph: {
+        title: "German Language BPO Services - Aalishaan Global",
+        description:
+            "Native-level German customer support with C1/C2 proficiency for DACH region.",
+        url: "/german-services",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/german-services",
+    },
+};
 
 export default function GermanServices() {
     return (

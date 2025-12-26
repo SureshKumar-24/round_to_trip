@@ -1,0 +1,12 @@
+# Robots.txt for Aalishaan Global BPO Services
+# https://aalishaanglobalbposervices.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://aalishaanglobalbposervices.com/sitemap.xml

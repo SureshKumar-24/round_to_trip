@@ -1,6 +1,32 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import { Mail, MessageSquare, Phone, Headphones, ClipboardList, CheckCircle2, XCircle, Calendar, Shield, BarChart3, Users, Clock, Globe } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Pricing & Engagement Models - Transparent BPO Pricing",
+    description:
+        "Transparent, flexible pricing for UK, US & European customer support outsourcing. Email, chat, and voice support with pilot-first engagement models. Get a custom quote today.",
+    keywords: [
+        "BPO pricing",
+        "customer support pricing",
+        "outsourcing costs",
+        "UK BPO rates",
+        "US support pricing",
+        "European customer support",
+        "hourly rates BPO",
+    ],
+    openGraph: {
+        title: "Pricing & Engagement Models - Aalishaan Global BPO",
+        description:
+            "Flexible, pilot-first pricing models designed for UK, US, and European markets.",
+        url: "/pricing",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/pricing",
+    },
+};
 
 export default function Pricing() {
     return (

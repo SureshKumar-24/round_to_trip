@@ -1,5 +1,31 @@
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Data Security - Bank-Level Protection",
+    description:
+        "Discover our comprehensive data security measures including AES-256 encryption, access control, GDPR compliance, physical security, and 24/7 monitoring.",
+    keywords: [
+        "data security",
+        "encryption",
+        "AES-256",
+        "GDPR compliance",
+        "access control",
+        "security monitoring",
+        "incident response",
+    ],
+    openGraph: {
+        title: "Data Security - Aalishaan Global BPO Services",
+        description:
+            "Bank-level security protocols protecting your sensitive business data.",
+        url: "/data-security",
+        type: "website",
+    },
+    alternates: {
+        canonical: "/data-security",
+    },
+};
 
 export default function DataSecurity() {
     return (
