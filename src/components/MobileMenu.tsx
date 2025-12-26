@@ -2,10 +2,11 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { Menu, X, Calendar, Phone } from 'lucide-react';
+import { Menu, X, Calendar, Phone, ChevronDown, ChevronUp } from 'lucide-react';
 
 export default function MobileMenu() {
     const [isOpen, setIsOpen] = useState(false);
+    const [isSecurityOpen, setIsSecurityOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -13,6 +14,7 @@ export default function MobileMenu() {
 
     const closeMenu = () => {
         setIsOpen(false);
+        setIsSecurityOpen(false);
     };
 
     return (
@@ -56,7 +58,7 @@ export default function MobileMenu() {
                     {/* Logo */}
                     <div className="mb-6 mt-2">
                         <Image
-                            src="/round_logo.png"
+                            src="/logo_round.svg"
                             alt="Aalishaan Global"
                             width={150}
                             height={50}
@@ -98,6 +100,62 @@ export default function MobileMenu() {
                             About
                         </a>
 
+                        {/* Security & Compliance Dropdown */}
+                        <div>
+                            <button
+                                onClick={() => setIsSecurityOpen(!isSecurityOpen)}
+                                className="w-full flex items-center justify-between text-gray-700 hover:text-[#1E73BE] font-medium text-lg py-2 transition-colors"
+                            >
+                                <span>Security & Compliance</span>
+                                {isSecurityOpen ? (
+                                    <ChevronUp className="w-5 h-5" />
+                                ) : (
+                                    <ChevronDown className="w-5 h-5" />
+                                )}
+                            </button>
+
+                            {/* Dropdown Items */}
+                            {isSecurityOpen && (
+                                <div className="ml-4 mt-2 space-y-2 border-l-2 border-[#1E73BE] pl-4">
+                                    <a
+                                        href="/gdpr"
+                                        onClick={closeMenu}
+                                        className="block text-gray-600 hover:text-[#1E73BE] font-normal text-base py-1.5 transition-colors"
+                                    >
+                                        GDPR
+                                    </a>
+                                    <a
+                                        href="/privacy-policy"
+                                        onClick={closeMenu}
+                                        className="block text-gray-600 hover:text-[#1E73BE] font-normal text-base py-1.5 transition-colors"
+                                    >
+                                        Privacy Policy
+                                    </a>
+                                    <a
+                                        href="/terms"
+                                        onClick={closeMenu}
+                                        className="block text-gray-600 hover:text-[#1E73BE] font-normal text-base py-1.5 transition-colors"
+                                    >
+                                        Terms of Service
+                                    </a>
+                                    <a
+                                        href="/data-security"
+                                        onClick={closeMenu}
+                                        className="block text-gray-600 hover:text-[#1E73BE] font-normal text-base py-1.5 transition-colors"
+                                    >
+                                        Data Security
+                                    </a>
+                                    <a
+                                        href="/security-compliance"
+                                        onClick={closeMenu}
+                                        className="block text-gray-600 hover:text-[#1E73BE] font-normal text-base py-1.5 transition-colors"
+                                    >
+                                        Security & Compliance
+                                    </a>
+                                </div>
+                            )}
+                        </div>
+
                         {/* Divider */}
                         <div className="border-t border-gray-200 my-2"></div>
 
@@ -123,7 +181,13 @@ export default function MobileMenu() {
                     {/* Contact Info */}
                     <div className="mt-8 pt-6 border-t border-gray-200">
                         <p className="text-sm text-gray-500 mb-2">Contact us:</p>
-                        <p className="text-sm text-gray-700">info@aalishaan-global.com</p>
+                        <a
+                            href="mailto:info@aalishaanglobalbposervices.com"
+                            className="text-sm text-[#1E73BE] hover:underline break-words block"
+                            style={{ wordBreak: 'break-all' }}
+                        >
+                            info@aalishaanglobalbposervices.com
+                        </a>
                         <p className="text-xs text-gray-500 mt-2">Based in India | Global Delivery</p>
                     </div>
                 </div>
