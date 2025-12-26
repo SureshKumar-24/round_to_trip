@@ -13,7 +13,7 @@ export default function Contact() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/round_logo.png"
+                                    src="/logo_round.svg"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -68,9 +68,9 @@ export default function Contact() {
                             {
                                 Icon: Mail,
                                 title: "Email Us",
-                                detail: "info@aalishaan-global.com",
+                                detail: "info@aalishaanglobalbposervices.com",
                                 subdDetail: "We'll respond within 24 hours",
-                                link: "mailto:info@aalishaan-global.com"
+                                link: "mailto:info@aalishaanglobalbposervices.com"
                             },
                             {
                                 Icon: Calendar,
@@ -117,7 +117,7 @@ export default function Contact() {
                                         </div>
                                         <div>
                                             <h3 className="text-xl font-bold mb-1">Email</h3>
-                                            <p className="text-white/90">info@aalishaan-global.com</p>
+                                            <p className="text-white/90">info@aalishaanglobalbposervices.com</p>
                                         </div>
                                     </div>
 
@@ -152,7 +152,7 @@ export default function Contact() {
                                 <p className="text-gray-300 mb-6">
                                     Schedule a quick discovery call to discuss your customer support requirements.
                                 </p>
-                                <a href="mailto:info@aalishaan-global.com?subject=15-Minute Call Request" className="inline-block bg-[#1E73BE] text-white px-8 py-4 rounded-full font-bold hover:bg-[#155A96] transition-all shadow-lg hover:scale-105">
+                                <a href="mailto:info@aalishaanglobalbposervices.com?subject=15-Minute Call Request" className="inline-block bg-[#1E73BE] text-white px-8 py-4 rounded-full font-bold hover:bg-[#155A96] transition-all shadow-lg hover:scale-105">
                                     Schedule a Call
                                 </a>
                             </div>
@@ -230,7 +230,7 @@ export default function Contact() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/round_logo.png"
+                                src="/logo_round.svg"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}
@@ -259,13 +259,13 @@ export default function Contact() {
                         <div>
                             <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
-                                <li>info@aalishaan-global.com</li>
+                                <li>info@aalishaanglobalbposervices.com</li>
                                 <li>Country: India</li>
                             </ul>
                         </div>
                     </div>
                     <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
-                        <p>&copy; 2024 Aalishaan Global BPO Services. All rights reserved.</p>
+                        <p>&copy; 2026 Aalishaan Global BPO Services. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MobileMenu from "@/components/MobileMenu";
 
 export default function DataSecurity() {
     return (
@@ -10,7 +11,7 @@ export default function DataSecurity() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/round_logo.png"
+                                    src="/logo_round.svg"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -27,6 +28,7 @@ export default function DataSecurity() {
                                 Contact Us
                             </a>
                         </nav>
+                        <MobileMenu />
                     </div>
                 </div>
             </header>
@@ -440,7 +442,7 @@ export default function DataSecurity() {
                         </p>
                         <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
                             <p className="text-gray-700 mb-2"><strong>Security Team</strong></p>
-                            <p className="text-gray-700 mb-2">Email: <a href="mailto:security@aalishaan-global.com" className="text-[#1E73BE] hover:underline font-semibold">security@aalishaan-global.com</a></p>
+                            <p className="text-gray-700 mb-2">Email: <a href="mailto:security@aalishaanglobalbposervices.com" className="text-[#1E73BE] hover:underline font-semibold">security@aalishaanglobalbposervices.com</a></p>
                             <p className="text-gray-700">Phone: +1 (234) 567-8900</p>
                         </div>
                     </div>
@@ -472,7 +474,7 @@ export default function DataSecurity() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/round_logo.png"
+                                src="/logo_round.svg"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}
@@ -500,13 +502,13 @@ export default function DataSecurity() {
                         <div>
                             <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
-                                <li>info@aalishaan-global.com</li>
+                                <li>info@aalishaanglobalbposervices.com</li>
                                 <li>+1 (234) 567-8900</li>
                             </ul>
                         </div>
                     </div>
                     <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
-                        <p>&copy; 2024 Aalishaan Global BPO Services. All rights reserved.</p>
+                        <p>&copy; 2026 Aalishaan Global BPO Services. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

@@ -12,7 +12,7 @@ export default function About() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/round_logo.png"
+                                    src="/logo_round.svg"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -238,7 +238,7 @@ export default function About() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/round_logo.png"
+                                src="/logo_round.svg"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}
@@ -267,13 +267,13 @@ export default function About() {
                         <div>
                             <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
-                                <li>info@aalishaan-global.com</li>
+                                <li>info@aalishaanglobalbposervices.com</li>
                                 <li>Country: India</li>
                             </ul>
                         </div>
                     </div>
                     <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
-                        <p>&copy; 2024 Aalishaan Global BPO Services. All rights reserved.</p>
+                        <p>&copy; 2026 Aalishaan Global BPO Services. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

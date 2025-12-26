@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/round_logo.png"
+                                    src="/logo_round.svg"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
                         Privacy Policy
                     </h1>
                     <p className="text-lg text-gray-300">
-                        Last Updated: December 2024
+                        Last Updated: December 2026
                     </p>
                 </div>
             </section>
@@ -165,7 +165,7 @@ export default function PrivacyPolicy() {
                             </ul>
                             <p className="text-gray-700 leading-relaxed mt-6">
                                 To exercise these rights, please contact us at{' '}
-                                <a href="mailto:info@aalishaan-global.com" className="text-[#1E73BE] hover:underline font-semibold">info@aalishaan-global.com</a>
+                                <a href="mailto:info@aalishaanglobalbposervices.com" className="text-[#1E73BE] hover:underline font-semibold">info@aalishaanglobalbposervices.com</a>
                             </p>
                         </div>
 
@@ -209,7 +209,7 @@ export default function PrivacyPolicy() {
                             </p>
                             <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
                                 <p className="text-gray-700 mb-2"><strong>Aalishaan Global BPO Services</strong></p>
-                                <p className="text-gray-700 mb-2">Email: <a href="mailto:info@aalishaan-global.com" className="text-[#1E73BE] hover:underline">info@aalishaan-global.com</a></p>
+                                <p className="text-gray-700 mb-2">Email: <a href="mailto:info@aalishaanglobalbposervices.com" className="text-[#1E73BE] hover:underline">info@aalishaanglobalbposervices.com</a></p>
                                 <p className="text-gray-700">Country: India</p>
                             </div>
                         </div>
@@ -242,7 +242,7 @@ export default function PrivacyPolicy() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/round_logo.png"
+                                src="/logo_round.svg"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}
@@ -271,13 +271,13 @@ export default function PrivacyPolicy() {
                         <div>
                             <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
-                                <li>info@aalishaan-global.com</li>
+                                <li>info@aalishaanglobalbposervices.com</li>
                                 <li>Country: India</li>
                             </ul>
                         </div>
                     </div>
                     <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
-                        <p>&copy; 2024 Aalishaan Global BPO Services. All rights reserved.</p>
+                        <p>&copy; 2026 Aalishaan Global BPO Services. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

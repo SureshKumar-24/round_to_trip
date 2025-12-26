@@ -12,7 +12,7 @@ export default function GDPR() {
                         <div>
                             <a href="/">
                                 <Image
-                                    src="/round_logo.png"
+                                    src="/logo_round.svg"
                                     alt="Aalishaan Global BPO Services"
                                     width={280}
                                     height={95}
@@ -118,7 +118,7 @@ export default function GDPR() {
                                 <p className="text-gray-900 font-semibold mb-2">How to Exercise Your Rights</p>
                                 <p className="text-gray-700">
                                     To exercise any of these rights, please contact us at{' '}
-                                    <a href="mailto:info@aalishaan-global.com" className="text-[#1E73BE] hover:underline font-semibold">info@aalishaan-global.com</a>
+                                    <a href="mailto:info@aalishaanglobalbposervices.com" className="text-[#1E73BE] hover:underline font-semibold">info@aalishaanglobalbposervices.com</a>
                                 </p>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ export default function GDPR() {
                             </p>
                             <div className="bg-gradient-to-br from-[#1E73BE]/10 to-white rounded-2xl p-6 border-2 border-[#1E73BE]/20">
                                 <p className="text-gray-900 font-bold mb-4">Aalishaan Global BPO Services</p>
-                                <p className="text-gray-700 mb-2">Email: <a href="mailto:info@aalishaan-global.com" className="text-[#1E73BE] hover:underline font-semibold">info@aalishaan-global.com</a></p>
+                                <p className="text-gray-700 mb-2">Email: <a href="mailto:info@aalishaanglobalbposervices.com" className="text-[#1E73BE] hover:underline font-semibold">info@aalishaanglobalbposervices.com</a></p>
                                 <p className="text-gray-700">Country: India</p>
                             </div>
                         </div>
@@ -220,7 +220,7 @@ export default function GDPR() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                         <div>
                             <Image
-                                src="/round_logo.png"
+                                src="/logo_round.svg"
                                 alt="Aalishaan Global"
                                 width={180}
                                 height={60}
@@ -249,13 +249,13 @@ export default function GDPR() {
                         <div>
                             <h3 className="text-lg font-bold mb-4 text-[#1E73BE]">Contact</h3>
                             <ul className="space-y-2 text-gray-400">
-                                <li>info@aalishaan-global.com</li>
+                                <li>info@aalishaanglobalbposervices.com</li>
                                 <li>Country: India</li>
                             </ul>
                         </div>
                     </div>
                     <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
-                        <p>&copy; 2024 Aalishaan Global BPO Services. All rights reserved.</p>
+                        <p>&copy; 2026 Aalishaan Global BPO Services. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
