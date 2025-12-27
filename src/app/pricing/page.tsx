@@ -137,13 +137,13 @@ export default function Pricing() {
                                         <div className="flex justify-between items-center mb-1">
                                             <span className="text-gray-700 font-medium">Email & Chat Support</span>
                                         </div>
-                                        <div className="text-2xl font-bold text-[#1E73BE]">£9 – £12 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
+                                        <div className="text-2xl font-bold text-[#1E73BE]">£8 – £10 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
                                     </div>
                                     <div className="bg-gray-50 rounded-xl p-4">
                                         <div className="flex justify-between items-center mb-1">
                                             <span className="text-gray-700 font-medium">Inbound Voice Support</span>
                                         </div>
-                                        <div className="text-2xl font-bold text-[#1E73BE]">£11 – £14 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
+                                        <div className="text-2xl font-bold text-[#1E73BE]">£9 – £12 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
                                     </div>
                                 </div>
                                 <div className="border-t border-gray-200 pt-4 mb-4">
@@ -184,13 +184,13 @@ export default function Pricing() {
                                         <div className="flex justify-between items-center mb-1">
                                             <span className="text-gray-700 font-medium">Email & Chat Support</span>
                                         </div>
-                                        <div className="text-2xl font-bold text-[#1E73BE]">$10 – $13 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
+                                        <div className="text-2xl font-bold text-[#1E73BE]">$9 – $11 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
                                     </div>
                                     <div className="bg-gray-50 rounded-xl p-4">
                                         <div className="flex justify-between items-center mb-1">
                                             <span className="text-gray-700 font-medium">Inbound Voice Support</span>
                                         </div>
-                                        <div className="text-2xl font-bold text-[#1E73BE]">$12 – $15 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
+                                        <div className="text-2xl font-bold text-[#1E73BE]">$10 – $13 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
                                     </div>
                                 </div>
                                 <div className="border-t border-gray-200 pt-4 mb-4">
@@ -228,19 +228,19 @@ export default function Pricing() {
                                         <div className="flex justify-between items-center mb-1">
                                             <span className="text-gray-700 font-medium">English Email & Chat</span>
                                         </div>
-                                        <div className="text-2xl font-bold text-[#1E73BE]">€9 – €12 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
+                                        <div className="text-2xl font-bold text-[#1E73BE]">€8 – €10 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
                                     </div>
                                     <div className="bg-gray-50 rounded-xl p-4">
                                         <div className="flex justify-between items-center mb-1">
                                             <span className="text-gray-700 font-medium">German Support (B2)</span>
                                         </div>
-                                        <div className="text-2xl font-bold text-[#1E73BE]">€12 – €15 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
+                                        <div className="text-2xl font-bold text-[#1E73BE]">€10 – €13 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
                                     </div>
                                     <div className="bg-gray-50 rounded-xl p-4">
                                         <div className="flex justify-between items-center mb-1">
                                             <span className="text-gray-700 font-medium">Inbound Voice (EN/DE)</span>
                                         </div>
-                                        <div className="text-2xl font-bold text-[#1E73BE]">€13 – €16 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
+                                        <div className="text-2xl font-bold text-[#1E73BE]">€9 – €14 <span className="text-sm font-normal text-gray-500">/ agent / hour</span></div>
                                     </div>
                                 </div>
                                 <div className="border-t border-gray-200 pt-4 mb-4">
